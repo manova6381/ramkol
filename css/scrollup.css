@@ -1,0 +1,12 @@
+.scrollup {
+   display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  <!-- background-color: #e02189; -->
+  cursor: pointer;
+  padding: 15px;
+}

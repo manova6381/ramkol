@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>    
+    <meta charset="utf-8">
+    <title>Ramkol</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="icon" href="images/fav.png" type="image/x-icon" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/index-style.css">
+	<link href="css/subscribe.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery.js"></script>
+	<script>
+	if(screen.width < 640)
+	{
+		document.location = "home.html";
+	}	
+</script>
+</head>
+
+<body>
+<!-- subscribe form start -->
+<div class="floating-form" id="contact_form">
+	<div class="contact-opener">Subscribe</div>
+    <div id="contact_results"></div>
+		<div id="contact_body">
+		   <center><img src="images/logo.png" alt="ramko" style="width:73px !important;height:100px !important;"></center>   
+		   <hr>  
+			<h3>Please Subscribe to Get Latest Prices of <span>Ramkol Products</span>.</h3>	   
+			<label>
+				<center><span>&nbsp;</span><input type="submit" id="myBtn" value="Submit" data-toggle="modal" data-target="#myModal" /></center>
+			</label>
+		</div>
+</div>
+<!-- subscribe form END -->  
+<!-- Modalform start  ---->
+<div class="modal fade" id="myModal" role="dialog">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">Ramkol Products Private Limited</h4>
+		</div>
+		<div class="modal-body">
+			<form action="subscribe-requirement-mail.php" method="post" name="fname" onsubmit="return validateForm(this)" data-toggle="validator" role="form">
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input type="text" class="form-control" id="Name" name="Name" required />
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="email" class="form-control" id="Email" name="Email" required />
+				</div>
+				<div class="form-group">
+					<label for="requirement">Requirement</label>
+					<textarea class="form-control" id="Requirement" name="Requirement" rows="3" required ></textarea>
+				</div>
+				<center><input name="submit" type="submit" value="Send" class="btn form-sub"></center>
+				<!-- <center><button type="submit" class="btn form-sub">Send</button></center> -->
+			</form> 
+		</div>
+		</div>
+	</div>
+</div>
+<!-- Modalform END  ---->
+<!-- BACKGROUND IMAGE START -->
+	<a href="home.html"><img src="images/index-bg.jpg" /></a>
+<!-- BACKGROUND IMAGE END ---->
+
+<!---SCRIPT START---------> 
+<script src="js/bootstrap.min.js"></script>
+<!----------FEEDBACK SCRIPT START------------->  
+<script type="text/javascript">
+$(document).ready(function(){ 
+
+	var _scroll = true, _timer = false, _floatbox = $("#contact_form"), _floatbox_opener = $(".contact-opener") ;
+	_floatbox.css("left", "-300px"); //initial contact form position
+	
+	//Contact form Opener button
+	_floatbox_opener.click(function(){
+		if (_floatbox.hasClass('visiable')){
+            _floatbox.animate({"left":"-300px"}, {duration: 300}).removeClass('visiable');
+        }else{
+           _floatbox.animate({"left":"0px"},  {duration: 300}).addClass('visiable');
+        }
+	});
+	
+	//Effect on Scroll
+	$(window).scroll(function(){
+		if(_scroll){
+			_floatbox.animate({"top": "30px"},{duration: 300});
+			_scroll = false;
+		}
+		if(_timer !== false){ clearTimeout(_timer); }           
+			_timer = setTimeout(function(){_scroll = true; 
+			_floatbox.animate({"top": "10px"},{easing: "linear"}, {duration: 500});}, 400); 
+	});
+	
+	
+	//Ajax form submit
+    $("#submit_btn").click(function() { 
+        var proceed = true;
+        //simple validation at client's end
+        //loop through each field and we simply change border color to red for invalid fields       
+        $("#contact_form input[required=true], #contact_form textarea[required=true]").each(function(){
+            $(this).css('border-color',''); 
+            if(!$.trim($(this).val())){ //if this field is empty 
+                $(this).css('border-color','red'); //change border color to red   
+                proceed = false; //set do not proceed flag
+            }
+            //check invalid email
+            var email_reg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/; 
+            if($(this).attr("type")=="email" && !email_reg.test($.trim($(this).val()))){
+                $(this).css('border-color','red'); //change border color to red   
+                proceed = false; //set do not proceed flag              
+            }   
+        });
+       
+        if(proceed) //everything looks good! proceed...
+        {
+            //get input field values data to be sent to server
+            post_data = {
+                'user_name'     : $('input[name=name]').val(), 
+                'user_email'    : $('input[name=email]').val(), 
+                'country_code'  : $('input[name=phone1]').val(), 
+                'phone_number'  : $('input[name=phone2]').val(), 
+                'subject'       : $('select[name=subject]').val(), 
+                'msg'           : $('textarea[name=message]').val()
+            };
+            
+            //Ajax post data to server
+            $.post('contact_me.php', post_data, function(response){  
+                if(response.type == 'error'){ //load json data from server and output message     
+                    output = '<div class="error">'+response.text+'</div>';
+                }else{
+                    output = '<div class="success">'+response.text+'</div>';
+                    //reset values in all input fields
+                    $("#contact_form  input[required=true], #contact_form textarea[required=true]").val(''); 
+                }
+                $("#contact_form #contact_results").hide().html(output).slideDown();
+            }, 'json');
+        }
+    });
+    
+    //reset previously set border colors and hide all message on .keyup()
+    $("#contact_form  input[required=true], #contact_form textarea[required=true]").keyup(function() { 
+        $(this).css('border-color',''); 
+        $("#result").slideUp();
+    });
+	
+});
+</script>  
+<!---------FEEDBACK SCRIPT END------------>  
+</body>
+</html>

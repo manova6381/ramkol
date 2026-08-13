@@ -1,0 +1,44 @@
+.searchbox{
+padding-top:45px;
+}
+.expandSearch{
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+.expandSearch i{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 4px 10px 8px ;
+  color: #dc2625;
+  cursor: pointer;
+  transition: 0.24s;
+}
+.expandSearch i:hover{
+  color: #0bf;
+}
+.expandSearch input{
+  font:14px/1.4 sans-serif;
+  padding-left: 26px;
+  background:rgba(255, 255, 255, 0.5);
+  color:#000;
+  border: transparent;
+  border-radius: 4px;
+  transition: 0.24s;
+  width: 0px;
+  padding: 8px 0px 10px 34px;
+}
+
+.expandSearch input:focus{
+  border-color: transparent;
+  outline: none;
+  width:100%;
+  padding: 10px 10px 10px 34px;
+}
+
+.expandSearch input:focus + i{
+  padding: 10px 4px 10px 8px ;
+  color: #000;
+  pointer-events: none;
+}

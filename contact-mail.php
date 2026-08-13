@@ -1,0 +1,1 @@
+<h3><font color=#FF0000> Thank you! Enquiry Sent Successfully!!!</font></h3><meta http-equiv=Refresh content=1;url=index.html>
