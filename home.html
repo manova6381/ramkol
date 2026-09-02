@@ -39,10 +39,10 @@
 	<nav id="navigation" class="container-fluid navbar navbar-inverse navbar navbar-dark bg-primary navbar-fixed-top">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-2 col-sm-2 col-md-2">
+				<div class="col-lg-2 col-sm-2 col-md-2 px-0-important">
 					<a href="index.html"><img src="images/logo.png" class="img-responsive" alt="ramkol"></a>
 				</div>
-				<div class=" col-xs-12 col-lg-10 col-sm-10 col-md-10">
+				<div class="col-lg-10 col-sm-10 col-md-10 px-0-important">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 							<span class="icon-bar"></span>
@@ -53,35 +53,324 @@
 					<div class="collapse navbar-collapse" id="myNavbar">
 						<ul class="nav navbar-nav">
 							<li class="active"><a href="home.html">Home</a></li>
-							<li class="cool-link"><a href="aboutus.html">Corporate</a></li>
-							<li class="cool-link"><a href="brands.html">Brands</a></li>
+							<li class="dropdown cool-link">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+									aria-haspopup="true" aria-expanded="false">
+									Corporate <span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="aboutus.html">About Our Company</a></li>
+									<li><a href="#">Our Leadership & Vision</a></li>
+									<li><a href="#">Global Reach & Network</a></li>
+									<li><a href="#">Careers & Opportunities</a></li>
+								</ul>
+							</li>
+							<li class="dropdown cool-link">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+									aria-haspopup="true" aria-expanded="false">
+									Brand <span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Partner Brands</a></li>
+									<li><a href="#">Featured Collections</a></li>
+									<li><a href="#">Private Label Portfolio</a></li>
+								</ul>
+							</li>
 							<li class="dropdown cool-link">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
 									aria-haspopup="true" aria-expanded="false">
 									Products <span class="caret"></span>
 								</a>
+
 								<ul class="dropdown-menu">
-									<li><a href="products-spices.html">Spices & Masala</a></li>
-									<li><a href="products-cosmetics.html">Cosmetic & Beauty</a></li>
-									<li><a href="products-herbs.html">Herbs</a></li>
-									<li><a href="products-oils.html">Essential Oils</a></li>
-									<li><a href="products-fmcg.html">FMCG</a></li>
-									<li><a href="products-ayurveda.html">Ayurveda & Nutraceuticals</a></li>
+
+									<!-- Spices & Seasonings -->
+									<li class="dropdown-submenu">
+										<a href="#">Spices&nbsp;&&nbsp;Seasonings</a>
+										<ul class="dropdown-menu">
+
+											<li class="dropdown-submenu">
+												<a href="#">Whole&nbsp;Spices</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Cumin</a></li>
+													<li><a href="#">Black&nbsp;Pepper</a></li>
+													<li><a href="#">Cardamom</a></li>
+													<li><a href="#">Cloves</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Ground&nbsp;&&nbsp;Powdered&nbsp;Spices</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Turmeric&nbsp;Powder</a></li>
+													<li><a href="#">Chili&nbsp;Powder</a></li>
+													<li><a href="#">Coriander&nbsp;Powder</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Blended&nbsp;Masalas</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Curry&nbsp;Powder</a></li>
+													<li><a href="#">Garam&nbsp;Masala</a></li>
+													<li><a href="#">Biryani&nbsp;Masala</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Dehydrated&nbsp;Products</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Garlic&nbsp;Flakes</a></li>
+													<li><a href="#">Onion&nbsp;Powder</a></li>
+													<li><a href="#">Dried&nbsp;Herbs</a></li>
+												</ul>
+											</li>
+
+										</ul>
+									</li>
+
+									<!-- Skincare & Cosmetics -->
+									<li class="dropdown-submenu">
+										<a href="#">Skincare&nbsp;&&nbsp;Cosmetics</a>
+										<ul class="dropdown-menu">
+
+											<li class="dropdown-submenu">
+												<a href="#">Skincare</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Herbal&nbsp;Face&nbsp;Creams</a></li>
+													<li><a href="#">Moisturizers</a></li>
+													<li><a href="#">Face&nbsp;Packs</a></li>
+													<li><a href="#">Serums</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Haircare</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Herbal&nbsp;Shampoos</a></li>
+													<li><a href="#">Hair&nbsp;Oils</a></li>
+													<li><a href="#">Conditioners</a></li>
+													<li><a href="#">Hair&nbsp;Masks</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Body&nbsp;Care</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Herbal&nbsp;Soaps</a></li>
+													<li><a href="#">Body&nbsp;Lotions</a></li>
+													<li><a href="#">Scrubs</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Natural&nbsp;Cosmetics</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Kajal</a></li>
+													<li><a href="#">Lip&nbsp;Balms</a></li>
+													<li><a href="#">Herbal&nbsp;Foundations</a></li>
+												</ul>
+											</li>
+
+										</ul>
+									</li>
+
+									<!-- Herbs & Botanical Extracts -->
+									<li class="dropdown-submenu">
+										<a href="#">Herbs&nbsp;&&nbsp;Botanical&nbsp;Extracts</a>
+										<ul class="dropdown-menu">
+
+											<li class="dropdown-submenu">
+												<a href="#">Standardized&nbsp;Herbal&nbsp;Extracts</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Ashwagandha&nbsp;Extract</a></li>
+													<li><a href="#">Curcumin</a></li>
+													<li><a href="#">Brahmi&nbsp;Extract</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Dried&nbsp;Raw&nbsp;Herbs</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Moringa&nbsp;Leaves</a></li>
+													<li><a href="#">Tulsi&nbsp;Leaves</a></li>
+													<li><a href="#">Neem&nbsp;Leaves</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Floral&nbsp;&&nbsp;Plant&nbsp;Waters</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Rose&nbsp;Water</a></li>
+													<li><a href="#">Kewra&nbsp;Water</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Essential&nbsp;Oils&nbsp;&&nbsp;Hydrosols</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Tea&nbsp;Tree&nbsp;Oil</a></li>
+													<li><a href="#">Lavender&nbsp;Oil</a></li>
+													<li><a href="#">Eucalyptus&nbsp;Oil</a></li>
+												</ul>
+											</li>
+
+										</ul>
+									</li>
+
+									<!-- Oils & Oilseeds -->
+									<li class="dropdown-submenu">
+										<a href="#">Oils&nbsp;&&nbsp;Oilseeds</a>
+										<ul class="dropdown-menu">
+
+											<li class="dropdown-submenu">
+												<a href="#">Edible&nbsp;Oils</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Mustard&nbsp;Oil</a></li>
+													<li><a href="#">Sesame&nbsp;Oil</a></li>
+													<li><a href="#">Coconut&nbsp;Oil</a></li>
+													<li><a href="#">Groundnut&nbsp;Oil</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Cold-Pressed&nbsp;Oils</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Virgin&nbsp;Coconut&nbsp;Oil</a></li>
+													<li><a href="#">Cold-Pressed&nbsp;Almond&nbsp;Oil</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Oilseeds</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Sesame&nbsp;Seeds</a></li>
+													<li><a href="#">Mustard&nbsp;Seeds</a></li>
+													<li><a href="#">Flaxseeds</a></li>
+													<li><a href="#">Cumin&nbsp;Seeds</a></li>
+												</ul>
+											</li>
+
+										</ul>
+									</li>
+
+									<!-- FMCG -->
+									<li class="dropdown-submenu">
+										<a href="#">Fast-Moving&nbsp;Consumer&nbsp;Goods&nbsp;(FMCG)</a>
+										<ul class="dropdown-menu">
+
+											<li class="dropdown-submenu">
+												<a href="#">Packaged&nbsp;Foods</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Snacks</a></li>
+													<li><a href="#">Ready-to-Eat&nbsp;Meals</a></li>
+													<li><a href="#">Pickles&nbsp;&&nbsp;Chutneys</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Beverages</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Herbal&nbsp;Teas</a></li>
+													<li><a href="#">Green&nbsp;Tea</a></li>
+													<li><a href="#">Instant&nbsp;Beverage&nbsp;Mixes</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Household&nbsp;&&nbsp;Personal&nbsp;Hygiene</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Natural&nbsp;Cleaners</a></li>
+													<li><a href="#">Hand&nbsp;Washes</a></li>
+													<li><a href="#">Oral&nbsp;Care</a></li>
+												</ul>
+											</li>
+
+										</ul>
+									</li>
+
+									<!-- Ayurvedic & Nutraceutical Products -->
+									<li class="dropdown-submenu">
+										<a href="#">Ayurvedic&nbsp;&&nbsp;Nutraceutical&nbsp;Products</a>
+										<ul class="dropdown-menu">
+
+											<li class="dropdown-submenu">
+												<a href="#">Ayurvedic&nbsp;Formulations</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Churna</a></li>
+													<li><a href="#">Vati&nbsp;/&nbsp;Tablets</a></li>
+													<li><a href="#">Asava&nbsp;&&nbsp;Arishta&nbsp;(Tonics)</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Nutritional&nbsp;Supplements</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Protein&nbsp;Powders</a></li>
+													<li><a href="#">Multivitamin&nbsp;Capsules</a></li>
+													<li><a href="#">Immunity&nbsp;Boosters</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Wellness&nbsp;Products</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Amla&nbsp;Juice</a></li>
+													<li><a href="#">Aloe&nbsp;Vera&nbsp;Juice</a></li>
+													<li><a href="#">Noni&nbsp;Juice</a></li>
+													<li><a href="#">Health&nbsp;Blends</a></li>
+												</ul>
+											</li>
+
+										</ul>
+									</li>
+
 								</ul>
 							</li>
-							<li class="cool-link"><a href="brand-registration.html">Brand Registration</a></li>
-							<li class="cool-link"><a href="services.html">Services</a></li>
-							<li class="cool-link"><a href="enquiry.html">Enquiry</a></li>
-							<li class="cool-link"><a href="contactus.html">Contact Us</a></li>
+							<li class="dropdown cool-link">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+									aria-haspopup="true" aria-expanded="false">
+									Services <span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Logistics & Supply Chain</a></li>
+									<li><a href="#">Sourcing & Export Solutions</a></li>
+									<li><a href="#">Custom Branding & Packaging</a></li>
+								</ul>
+							</li>
+							<li class="dropdown cool-link">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+									aria-haspopup="true" aria-expanded="false">
+									Brand Registration <span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="brand-vendor-registration-form.html">Partner Registration Form</a></li>
+									<li><a href="#">Vendor Guidelines</a></li>
+								</ul>
+							</li>
+							<li class="dropdown cool-link">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+									aria-haspopup="true" aria-expanded="false">
+									Enquiry<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="general-enquiry-form.html">General Product & Trade Inquiry Form</a></li>
+								</ul>
+							</li>
+							<li class="dropdown cool-link">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+									aria-haspopup="true" aria-expanded="false">
+									Contact Us <span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="global-offices-support-desk.html">Global Offices & Support Desk</a></li>
+									<li><a href="#">Direct Inquiry Contact</a></li>
+								</ul>
+							</li>
 						</ul>
 					</div>
 				</div>
-				<!-- <div class="col-xs-12 col-lg-2 col-sm-2 col-md-2 searchbox">
-		<label class="expandSearch">
-		  <input type="text" placeholder="Search..." name="search">
-		  <i class="fa fa-search" aria-hidden="true"></i>
-		</label>
-	</div> -->
+
 			</div>
 		</div>
 	</nav>
@@ -347,7 +636,7 @@
 		<div class="container">
 			<div class="sec-title text-center mb-45">
 				<span class="sub-text sub-text5">Our Products</span>
-				<h2 class="title">Delivering Innovative Solutions for Every Need</h2>
+				<h2 class="title">Quality Products for Global Markets.</h2>
 			</div>
 			<div class="rs-carousel owl-carousel owl-loaded owl-drag" data-loop="true" data-items="3" data-margin="30"
 				data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800"
@@ -652,8 +941,6 @@
 					</div>
 				</div>
 
-				<div class="col-0 col-md-0 col-lg-3"></div>
-
 				<div class="col-6 col-md-4 col-lg-3">
 					<div class="ramkol-industries-hm-card">
 						<div class="ramkol-industries-hm-icon">
@@ -685,7 +972,43 @@
 					</div>
 				</div>
 
-				<div class="col-0 col-md-0 col-lg-3"></div>
+				<div class="col-6 col-md-4 col-lg-3">
+    <div class="ramkol-industries-hm-card">
+        <div class="ramkol-industries-hm-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 21h18" />
+                <path d="M5 21V7l7-4 7 4v14" />
+                <path d="M9 10h1" />
+                <path d="M14 10h1" />
+                <path d="M9 14h1" />
+                <path d="M14 14h1" />
+            </svg>
+        </div>
+        <h3 class="ramkol-industries-hm-card-title">Industrial Supplies</h3>
+        <p class="ramkol-industries-hm-card-text">
+            Equipment, tools,<br> maintenance products.
+        </p>
+    </div>
+</div>
+
+<div class="col-6 col-md-4 col-lg-3">
+    <div class="ramkol-industries-hm-card">
+        <div class="ramkol-industries-hm-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 5h16v14H4z" />
+                <path d="M8 9h8" />
+                <path d="M8 13h8" />
+                <path d="M8 17h5" />
+            </svg>
+        </div>
+        <h3 class="ramkol-industries-hm-card-title">Office &amp; Commercial</h3>
+        <p class="ramkol-industries-hm-card-text">
+            Office supplies,<br> commercial products.
+        </p>
+    </div>
+</div>
 
 			</div>
 		</div>
@@ -754,45 +1077,46 @@
 
 
 
-<!-- ============ SECTION 1: CTA ============ -->
-<section class="sourcify-section sourcify-cta-wrapper pt--media-60-30 pb--media-30-15">
-  <div class="container-fluid">
-    <div class="sourcify-card sourcify-card-cta">
-      <div class="row align-items-center justify-content-center gy-4">
-        <div class="col-lg-6">
-          <h2 class="sourcify-heading mb-0">
-            Ready to source smarter and trade
-            <span class="sourcify-heading-accent">with confidence?</span>
-          </h2>
-        </div>
-        <div class="col-lg-6">
-          <div class="d-flex gap-3">
-            <a href="#" class="sourcify-btn sourcify-btn-primary">Get a Free Quote</a>
-            <a href="#" class="sourcify-btn sourcify-btn-secondary">Talk to Our Team</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+	<!-- ============ SECTION 1: CTA ============ -->
+	<section class="sourcify-section sourcify-cta-wrapper pt--media-60-30 pb--media-30-15">
+		<div class="container-fluid">
+			<div class="sourcify-card sourcify-card-cta">
+				<div class="row align-items-center justify-content-center gy-4">
+					<div class="col-lg-6">
+						<h2 class="sourcify-heading mb-0">
+							Ready to source smarter and trade
+							<span class="sourcify-heading-accent">with confidence?</span>
+						</h2>
+					</div>
+					<div class="col-lg-6">
+						<div class="d-flex gap-3">
+							<a href="#" class="sourcify-btn sourcify-btn-primary">Get a Free Quote</a>
+							<a href="#" class="sourcify-btn sourcify-btn-secondary">Talk to Our Team</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-<!-- ============ SECTION 2: NEWSLETTER ============ -->
-<section class="sourcify-section sourcify-newsletter-wrapper pt--media-30-15 pb--media-60-30">
-  <div class="container-fluid">
-    <div class="sourcify-card sourcify-card-newsletter text-center">
-      <span class="sourcify-eyebrow">Stay Informed</span>
-      <h3 class="sourcify-subheading">Global trade updates, straight to your inbox</h3>
-      <p class="sourcify-text mb-4">
-        Monthly insights on tariffs, currency, freight rates and emerging sourcing opportunities.<br>
-        No spam, unsubscribe any time.
-      </p>
-      <form class="sourcify-form mx-auto">
-        <input type="email" class="sourcify-input" placeholder="your.email@company.com" required>
-        <button type="submit" class="sourcify-btn sourcify-btn-primary sourcify-btn-submit mt-0">Subscribe</button>
-      </form>
-    </div>
-  </div>
-</section>
+	<!-- ============ SECTION 2: NEWSLETTER ============ -->
+	<section class="sourcify-section sourcify-newsletter-wrapper pt--media-30-15 pb--media-60-30">
+		<div class="container-fluid">
+			<div class="sourcify-card sourcify-card-newsletter text-center">
+				<span class="sourcify-eyebrow">Stay Informed</span>
+				<h3 class="sourcify-subheading">Global trade updates, straight to your inbox</h3>
+				<p class="sourcify-text mb-4">
+					Monthly insights on tariffs, currency, freight rates and emerging sourcing opportunities.<br>
+					No spam, unsubscribe any time.
+				</p>
+				<form class="sourcify-form mx-auto">
+					<input type="email" class="sourcify-input" placeholder="your.email@company.com" required>
+					<button type="submit"
+						class="sourcify-btn sourcify-btn-primary sourcify-btn-submit mt-0">Subscribe</button>
+				</form>
+			</div>
+		</div>
+	</section>
 
 
 	<!--------------FOOTER START-------------->
@@ -801,48 +1125,55 @@
 			<div class="row">
 
 				<div class="col-lg-3 col-sm-6 col-md-3 conprod">
-					<h4>NEWS LETTER SUBSCRIBE</h4>
-					<p>Kindly Fill the Below Field with Valid Mailid Subcribing with the Below Field Help
-						You to Stay Connected with United Trading Corporation Co ltd.</p>
-					<div class="news-ltr-e-sec">
+					<h4>ABOUT RAMKOL</h4>
+					<p class="fw-bold">Connecting Markets. Delivering Opportunities.</p>
+					<p>Ramkol Ventures is a trusted Indian trading and distribution company with over 20 years of industry experience, specializing in global sourcing, import & export, FMCG distribution, private-label solutions, and international trade.</p>
+					<!-- <div class="news-ltr-e-sec">
 						<input type="email" placeholder="Email">
 						<button class="btn-part ftr-news-btn">Submit</button>
-					</div>
+					</div> -->
 					<div class="contacticon mt--20 soc-medi-icon-ftr">
-						<h5>FOLLOW US</h5>
-						<a class="fb-clr" href="#"><i class="fa fa-facebook "></i></a>
+						<!-- <h5>FOLLOW US</h5> -->
+						<a class="tw-clr" href="#"><i class="fa fa-linkedin "></i></a>
 						<a class="ig-clr" href="#"><i class="fa fa-instagram "></i></a>
-						<!-- <a href="javascript:void(0);"><i class="fa  fa-whatsapp "></i></a> - +91 8111861118<br>
-					<a href="javascript:void(0);"><i class="fa fa-skype" aria-hidden="true"></i></a> - ramkolproducts -->
+						<a class="fb-clr" href="#"><i class="fa fa-facebook "></i></a>
 					</div>
 				</div>
 
 				<div class="col-lg-3 col-sm-6 col-md-3 conprod">
-					<h4>COMPANY PROFILE</h4>
-					<p><a href="#">Logistics Solutions</a></p>
-					<p><a href="#">Sourcing & Export</a></p>
-					<p><a href="#">Custom Branding Solutions</a></p>
-					<p><a href="#">Gallery</a></p>
-					<p><a href="#">Career</a></p>
-					<p><a href="#">Site Map</a></p>
+					<h4>COMPANY</h4>
+					<p><a href="#">About Us</a></p>
+					<p><a href="#">Logistics & Supply Chain</a></p>
+					<p><a href="#">Global Sourcing & Export</a></p>
+					<p><a href="#">Private Label Solutions</a></p>
+					<p><a href="#">Media & Gallery</a></p>
+					<p><a href="#">Careers</a></p>
+					<p><a href="#">Sitemap</a></p>
 				</div>
 
 				<div class="col-lg-3 col-sm-6 col-md-3 conprod">
-					<h4>PRODUCT CATEGORIES</h4>
-					<p><a href="products-spices.html">Spices & Masala</a></p>
-					<p><a href="products-cosmetics.html">Cosmetic & Beauty</a></p>
-					<p><a href="products-herbs.html">Herbs & Extract</a></p>
-					<p><a href="products-oils.html">Oil & Oilseed</a></p>
-					<p><a href="products-fmcg.html">FMCG</a></p>
-					<p><a href="products-ayurveda.html">Ayurveda & Nutrceuticals</a></p>
+					<h4>OUR CATALOG</h4>
+					<p><a href="#">Spices & Seasonings</a></p>
+					<p><a href="#">Skincare & Cosmetics</a></p>
+					<p><a href="#">Herbs & Botanical Extracts</a></p>
+					<p><a href="#">Oils & Oilseeds</a></p>
+					<p><a href="#">FMCG Products</a></p>
+					<p><a href="#">Ayurvedic & Nutraceuticals</a></p>
 				</div>
 
 				<div class="col-lg-3 col-sm-5 col-md-3 contacticon">
-					<h4>NEED ASSISTANCE?</h4>
-					<p>Contact Us Today – We're Here to Help!</p>
-					<a href="tel:+91 80562 86760"><i class="fa  fa-phone"></i> &nbsp;&nbsp; +91 80562 86760</a><br>
+					<h4>SUPPORT & ENQUIRIES</h4>
+					<p class="fw-bold">Let’s Build Global Business Together</p>
+					<p class="line-height-23">Have a sourcing, export, distribution, or private-label requirement?</p>
+					<p>Our team is ready to assist.</p>
+					<a href="tel:+91 8111861178"><i class="fa  fa-phone"></i> &nbsp;&nbsp; +91 8111861178</a><br>
 					<a href="mailto:info@ramkol.in"><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;&nbsp;
 						info@ramkol.in</a>
+
+						<div class="contacticon mt--20 soc-medi-icon-ftr">
+						<h5>FOLLOW US</h5>
+						<p class="line-height-23">Connect with Ramkol Ventures for company updates, product highlights, and global business developments.</p>
+					</div>
 
 				</div>
 
@@ -856,7 +1187,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<p>Copyright © 2025 - RAMKOL Products - All Rights Reserved.</p>
+					<p>© 2026 Ramkol Ventures. All Rights Reserved.</p>
 					<a href="#" class="scrollup">
 						<i class="fa fa-arrow-up"></i>
 					</a>

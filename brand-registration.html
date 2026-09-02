@@ -20,56 +20,345 @@
 </head>
 <body>
 
-<!------------------LOGO START----------------->
-<nav id="navigation" class="container-fluid navbar navbar-inverse navbar navbar-dark bg-primary navbar-fixed-top">
-	<div class="container">
-		<div class="row">
-	<div class="col-lg-2 col-sm-2 col-md-2">
-		<a href="index.html"><img src="images/logo.png" class="img-responsive" alt="ramkol"></a>	
-	</div>	
-	<div class=" col-xs-12 col-lg-10 col-sm-10 col-md-10">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-		</div>
-		<div class="collapse navbar-collapse" id="myNavbar">
-			<ul class="nav navbar-nav">
-							<li class="cool-link"><a href="home.html">Home</a></li>
-							<li class="cool-link"><a href="aboutus.html">Corporate</a></li>
-							<li class="cool-link"><a href="brands.html">Brands</a></li>
+	<!------------------LOGO START----------------->
+	<nav id="navigation" class="container-fluid navbar navbar-inverse navbar navbar-dark bg-primary navbar-fixed-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-sm-2 col-md-2 px-0-important">
+					<a href="index.html"><img src="images/logo.png" class="img-responsive" alt="ramkol"></a>
+				</div>
+				<div class="col-lg-10 col-sm-10 col-md-10 px-0-important">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="home.html">Home</a></li>
+							<li class="dropdown cool-link">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+									aria-haspopup="true" aria-expanded="false">
+									Corporate <span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="aboutus.html">About Our Company</a></li>
+									<li><a href="#">Our Leadership & Vision</a></li>
+									<li><a href="#">Global Reach & Network</a></li>
+									<li><a href="#">Careers & Opportunities</a></li>
+								</ul>
+							</li>
+							<li class="dropdown cool-link">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+									aria-haspopup="true" aria-expanded="false">
+									Brand <span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Partner Brands</a></li>
+									<li><a href="#">Featured Collections</a></li>
+									<li><a href="#">Private Label Portfolio</a></li>
+								</ul>
+							</li>
 							<li class="dropdown cool-link">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
 									aria-haspopup="true" aria-expanded="false">
 									Products <span class="caret"></span>
 								</a>
+
 								<ul class="dropdown-menu">
-									<li><a href="products-spices.html">Spices & Masala</a></li>
-									<li><a href="products-cosmetics.html">Cosmetic & Beauty</a></li>
-									<li><a href="products-herbs.html">Herbs</a></li>
-									<li><a href="products-oils.html">Essential Oils</a></li>
-									<li><a href="products-fmcg.html">FMCG</a></li>
-									<li><a href="products-ayurveda.html">Ayurveda & Nutraceuticals</a></li>
+
+									<!-- Spices & Seasonings -->
+									<li class="dropdown-submenu">
+										<a href="#">Spices&nbsp;&&nbsp;Seasonings</a>
+										<ul class="dropdown-menu">
+
+											<li class="dropdown-submenu">
+												<a href="#">Whole&nbsp;Spices</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Cumin</a></li>
+													<li><a href="#">Black&nbsp;Pepper</a></li>
+													<li><a href="#">Cardamom</a></li>
+													<li><a href="#">Cloves</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Ground&nbsp;&&nbsp;Powdered&nbsp;Spices</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Turmeric&nbsp;Powder</a></li>
+													<li><a href="#">Chili&nbsp;Powder</a></li>
+													<li><a href="#">Coriander&nbsp;Powder</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Blended&nbsp;Masalas</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Curry&nbsp;Powder</a></li>
+													<li><a href="#">Garam&nbsp;Masala</a></li>
+													<li><a href="#">Biryani&nbsp;Masala</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Dehydrated&nbsp;Products</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Garlic&nbsp;Flakes</a></li>
+													<li><a href="#">Onion&nbsp;Powder</a></li>
+													<li><a href="#">Dried&nbsp;Herbs</a></li>
+												</ul>
+											</li>
+
+										</ul>
+									</li>
+
+									<!-- Skincare & Cosmetics -->
+									<li class="dropdown-submenu">
+										<a href="#">Skincare&nbsp;&&nbsp;Cosmetics</a>
+										<ul class="dropdown-menu">
+
+											<li class="dropdown-submenu">
+												<a href="#">Skincare</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Herbal&nbsp;Face&nbsp;Creams</a></li>
+													<li><a href="#">Moisturizers</a></li>
+													<li><a href="#">Face&nbsp;Packs</a></li>
+													<li><a href="#">Serums</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Haircare</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Herbal&nbsp;Shampoos</a></li>
+													<li><a href="#">Hair&nbsp;Oils</a></li>
+													<li><a href="#">Conditioners</a></li>
+													<li><a href="#">Hair&nbsp;Masks</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Body&nbsp;Care</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Herbal&nbsp;Soaps</a></li>
+													<li><a href="#">Body&nbsp;Lotions</a></li>
+													<li><a href="#">Scrubs</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Natural&nbsp;Cosmetics</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Kajal</a></li>
+													<li><a href="#">Lip&nbsp;Balms</a></li>
+													<li><a href="#">Herbal&nbsp;Foundations</a></li>
+												</ul>
+											</li>
+
+										</ul>
+									</li>
+
+									<!-- Herbs & Botanical Extracts -->
+									<li class="dropdown-submenu">
+										<a href="#">Herbs&nbsp;&&nbsp;Botanical&nbsp;Extracts</a>
+										<ul class="dropdown-menu">
+
+											<li class="dropdown-submenu">
+												<a href="#">Standardized&nbsp;Herbal&nbsp;Extracts</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Ashwagandha&nbsp;Extract</a></li>
+													<li><a href="#">Curcumin</a></li>
+													<li><a href="#">Brahmi&nbsp;Extract</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Dried&nbsp;Raw&nbsp;Herbs</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Moringa&nbsp;Leaves</a></li>
+													<li><a href="#">Tulsi&nbsp;Leaves</a></li>
+													<li><a href="#">Neem&nbsp;Leaves</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Floral&nbsp;&&nbsp;Plant&nbsp;Waters</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Rose&nbsp;Water</a></li>
+													<li><a href="#">Kewra&nbsp;Water</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Essential&nbsp;Oils&nbsp;&&nbsp;Hydrosols</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Tea&nbsp;Tree&nbsp;Oil</a></li>
+													<li><a href="#">Lavender&nbsp;Oil</a></li>
+													<li><a href="#">Eucalyptus&nbsp;Oil</a></li>
+												</ul>
+											</li>
+
+										</ul>
+									</li>
+
+									<!-- Oils & Oilseeds -->
+									<li class="dropdown-submenu">
+										<a href="#">Oils&nbsp;&&nbsp;Oilseeds</a>
+										<ul class="dropdown-menu">
+
+											<li class="dropdown-submenu">
+												<a href="#">Edible&nbsp;Oils</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Mustard&nbsp;Oil</a></li>
+													<li><a href="#">Sesame&nbsp;Oil</a></li>
+													<li><a href="#">Coconut&nbsp;Oil</a></li>
+													<li><a href="#">Groundnut&nbsp;Oil</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Cold-Pressed&nbsp;Oils</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Virgin&nbsp;Coconut&nbsp;Oil</a></li>
+													<li><a href="#">Cold-Pressed&nbsp;Almond&nbsp;Oil</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Oilseeds</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Sesame&nbsp;Seeds</a></li>
+													<li><a href="#">Mustard&nbsp;Seeds</a></li>
+													<li><a href="#">Flaxseeds</a></li>
+													<li><a href="#">Cumin&nbsp;Seeds</a></li>
+												</ul>
+											</li>
+
+										</ul>
+									</li>
+
+									<!-- FMCG -->
+									<li class="dropdown-submenu">
+										<a href="#">Fast-Moving&nbsp;Consumer&nbsp;Goods&nbsp;(FMCG)</a>
+										<ul class="dropdown-menu">
+
+											<li class="dropdown-submenu">
+												<a href="#">Packaged&nbsp;Foods</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Snacks</a></li>
+													<li><a href="#">Ready-to-Eat&nbsp;Meals</a></li>
+													<li><a href="#">Pickles&nbsp;&&nbsp;Chutneys</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Beverages</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Herbal&nbsp;Teas</a></li>
+													<li><a href="#">Green&nbsp;Tea</a></li>
+													<li><a href="#">Instant&nbsp;Beverage&nbsp;Mixes</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Household&nbsp;&&nbsp;Personal&nbsp;Hygiene</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Natural&nbsp;Cleaners</a></li>
+													<li><a href="#">Hand&nbsp;Washes</a></li>
+													<li><a href="#">Oral&nbsp;Care</a></li>
+												</ul>
+											</li>
+
+										</ul>
+									</li>
+
+									<!-- Ayurvedic & Nutraceutical Products -->
+									<li class="dropdown-submenu">
+										<a href="#">Ayurvedic&nbsp;&&nbsp;Nutraceutical&nbsp;Products</a>
+										<ul class="dropdown-menu">
+
+											<li class="dropdown-submenu">
+												<a href="#">Ayurvedic&nbsp;Formulations</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Churna</a></li>
+													<li><a href="#">Vati&nbsp;/&nbsp;Tablets</a></li>
+													<li><a href="#">Asava&nbsp;&&nbsp;Arishta&nbsp;(Tonics)</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Nutritional&nbsp;Supplements</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Protein&nbsp;Powders</a></li>
+													<li><a href="#">Multivitamin&nbsp;Capsules</a></li>
+													<li><a href="#">Immunity&nbsp;Boosters</a></li>
+												</ul>
+											</li>
+
+											<li class="dropdown-submenu">
+												<a href="#">Wellness&nbsp;Products</a>
+												<ul class="dropdown-menu">
+													<li><a href="#">Amla&nbsp;Juice</a></li>
+													<li><a href="#">Aloe&nbsp;Vera&nbsp;Juice</a></li>
+													<li><a href="#">Noni&nbsp;Juice</a></li>
+													<li><a href="#">Health&nbsp;Blends</a></li>
+												</ul>
+											</li>
+
+										</ul>
+									</li>
+
 								</ul>
 							</li>
-							<li class="active"><a href="brand-registration.html">Brand Registration</a></li>
-							<li class="cool-link"><a href="services.html">Services</a></li>
-							<li class="cool-link"><a href="enquiry.html">Enquiry</a></li>
-							<li class="cool-link"><a href="contactus.html">Contact Us</a></li>
-						</ul>		
-		</div>	
-	</div>	
-	<!-- <div class="col-xs-12 col-lg-2 col-sm-2 col-md-2 searchbox">
-		<label class="expandSearch">
-		  <input type="text" placeholder="Search..." name="search">
-		  <i class="fa fa-search" aria-hidden="true"></i>
-		</label>
-	</div> -->
-</div>
-</div>
-</nav>
+							<li class="dropdown cool-link">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+									aria-haspopup="true" aria-expanded="false">
+									Services <span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Logistics & Supply Chain</a></li>
+									<li><a href="#">Sourcing & Export Solutions</a></li>
+									<li><a href="#">Custom Branding & Packaging</a></li>
+								</ul>
+							</li>
+							<li class="dropdown cool-link">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+									aria-haspopup="true" aria-expanded="false">
+									Brand Registration <span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="brand-vendor-registration-form.html">Partner Registration Form</a></li>
+									<li><a href="#">Vendor Guidelines</a></li>
+								</ul>
+							</li>
+							<li class="dropdown cool-link">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+									aria-haspopup="true" aria-expanded="false">
+									Enquiry<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="general-enquiry-form.html">General Product & Trade Inquiry Form</a></li>
+								</ul>
+							</li>
+							<li class="dropdown cool-link">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+									aria-haspopup="true" aria-expanded="false">
+									Contact Us <span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="global-offices-support-desk.html">Global Offices & Support Desk</a></li>
+									<li><a href="#">Direct Inquiry Contact</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</nav>
 <!------------------LOGO END------------------->
         
 <!------------------SLIDER START--------------->
