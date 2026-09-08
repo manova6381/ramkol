@@ -216,16 +216,16 @@ footer h4 {
 }
 
 .contacticon a .fa {
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
-    padding: 5px 5px;
-    font-size: 16px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    background: transparent;
-    border: 1px solid #f1950d;
-    color: #f1940e;
+	box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+	padding: 5px 5px;
+	font-size: 16px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	background: transparent;
+	border: 1px solid #f1950d;
+	color: #f1940e;
 }
 
 .contacticon .fa-facebook:hover {
@@ -287,10 +287,10 @@ footer h4 {
 /********FOOTER END**********/
 /********COPY START**********/
 .copyright {
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
-    padding: 15px 0px 3px 0px;
-    text-align: center;
-    background: radial-gradient(circle at 45% 50%, rgba(244, 125, 20, 0.45), transparent 35%), linear-gradient(135deg, #A51B11 0%, #B52113 50%, #C63E0F 100%);
+	box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
+	padding: 15px 0px 3px 0px;
+	text-align: center;
+	background: radial-gradient(circle at 45% 50%, rgba(244, 125, 20, 0.45), transparent 35%), linear-gradient(135deg, #A51B11 0%, #B52113 50%, #C63E0F 100%);
 }
 
 .copyright p {
@@ -2153,7 +2153,7 @@ footer h4 {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	    background: #b03011;
+	background: #b03011;
 }
 
 /* .contacticon .fa:hover{
@@ -3205,206 +3205,211 @@ footer h4 {
 
 /* ===== SOURCIFY SECTIONS ===== */
 .sourcify-section {
-  position: relative;
+	position: relative;
 }
 
 /* ===== CARDS with gradients ===== */
 .sourcify-card {
-  position: relative;
-  overflow: hidden;
-  border-radius: 24px;
-  padding: 64px 56px;
-  color: #fff;
+	position: relative;
+	overflow: hidden;
+	border-radius: 24px;
+	padding: 64px 56px;
+	color: #fff;
 }
 
 /* Card 1 – deep ember gradient sliding into slate */
 .sourcify-card-cta {
-  background:
-    radial-gradient(120% 140% at 12% 30%, #d23c14 0%, #b0300f 42%, rgba(176, 48, 15, 0) 72%),
-    linear-gradient(100deg, #a82c0d 0%, #c2410c 38%, #8f3a1f 58%, #1f2a37 88%);
+	background:
+		radial-gradient(120% 140% at 12% 30%, #d23c14 0%, #b0300f 42%, rgba(176, 48, 15, 0) 72%),
+		linear-gradient(100deg, #a82c0d 0%, #c2410c 38%, #8f3a1f 58%, #1f2a37 88%);
 }
 
 /* Card 2 – lighter warm wash */
 .sourcify-card-newsletter {
-  background:
-    radial-gradient(90% 130% at 85% 40%, #e2681f 0%, rgba(226, 104, 31, 0) 65%),
-    linear-gradient(85deg, #c85a1c 0%, #b5390f 45%, #a83718 70%, #c26a24 100%);
-  padding: 50px;
-  display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	background:
+		radial-gradient(90% 130% at 85% 40%, #e2681f 0%, rgba(226, 104, 31, 0) 65%),
+		linear-gradient(85deg, #c85a1c 0%, #b5390f 45%, #a83718 70%, #c26a24 100%);
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .sourcify-heading {
-    font-size: 42px;
-    font-weight: 700;
-    line-height: 50px;
-    color: #fff;
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 50px;
+	color: #fff;
 }
 
 .sourcify-heading-accent {
-  color: #e0a54a;
-  display: block;
+	color: #e0a54a;
+	display: block;
 }
 
 .sourcify-eyebrow {
-  display: block;
-    font-size: 16px;
-    margin-bottom: 10px;
-  text-transform: uppercase;
-  color: #f0b45c;
-  font-weight: 600;
+	display: block;
+	font-size: 16px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	color: #f0b45c;
+	font-weight: 600;
 }
 
 .sourcify-subheading {
-    font-size: 42px;
-    font-weight: 700;
-    line-height: 53px;
-  margin-bottom: 16px;
-      margin-top: 0px;
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 53px;
+	margin-bottom: 16px;
+	margin-top: 0px;
 }
 
 .sourcify-text {
-    font-size: 16px;
-    line-height: 30px;
-    color: #e3e3e3;
+	font-size: 16px;
+	line-height: 30px;
+	color: #e3e3e3;
 }
 
 /* ===== Buttons ===== */
 .sourcify-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 16px 45px;
-    margin-top: 20px;
-    border-radius: 999px;
-    font-size: 18px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 16px 45px;
+	margin-top: 20px;
+	border-radius: 999px;
+	font-size: 18px;
+	font-weight: 600;
+	text-decoration: none;
+	transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease;
 }
 
 .sourcify-btn:hover {
-  transform: translateY(-2px);
+	transform: translateY(-2px);
 }
 
 .sourcify-btn-primary {
-  background: linear-gradient(180deg, #d79a35, #b7791d);
-  color: #fff;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
+	background: linear-gradient(180deg, #d79a35, #b7791d);
+	color: #fff;
+	box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
 }
 
 .sourcify-btn-secondary {
-  border: 1px solid rgba(224, 165, 74, 0.75);
-  color: #f0c179;
+	border: 1px solid rgba(224, 165, 74, 0.75);
+	color: #f0c179;
 }
 
 .sourcify-btn-secondary:hover {
-  background: rgba(224, 165, 74, 0.14);
-  color: #fff;
+	background: rgba(224, 165, 74, 0.14);
+	color: #fff;
 }
 
 /* ===== Newsletter Form ===== */
 .sourcify-form {
-  display: flex;
-  align-items: center;
-  max-width: 430px;
-  padding: 5px;
-  border-radius: 999px;
-  background: rgba(31, 42, 55, 0.9);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
-  margin-top: 20px;
+	display: flex;
+	align-items: center;
+	max-width: 430px;
+	padding: 5px;
+	border-radius: 999px;
+	background: rgba(31, 42, 55, 0.9);
+	box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+	margin-top: 20px;
 }
 
 .sourcify-input {
-  flex: 1;
-  border: 0;
-  background: transparent;
-  color: #fff;
-  padding: 12px 18px;
-  font-size: 16px;
-  outline: none;
+	flex: 1;
+	border: 0;
+	background: transparent;
+	color: #fff;
+	padding: 12px 18px;
+	font-size: 16px;
+	outline: none;
 }
 
 .sourcify-input::placeholder {
-  color: rgba(255, 255, 255, 0.55);
+	color: rgba(255, 255, 255, 0.55);
 }
 
 .sourcify-btn-submit {
-  padding: 12px 26px;
+	padding: 12px 26px;
 }
 
 .sourcify-spark {
-  position: absolute;
-  right: 6%;
-  bottom: 16%;
-  font-size: 1.7rem;
-  color: rgba(255, 255, 255, 0.45);
+	position: absolute;
+	right: 6%;
+	bottom: 16%;
+	font-size: 1.7rem;
+	color: rgba(255, 255, 255, 0.45);
 }
 
 /* ===== Responsive ===== */
 @media (max-width: 767.98px) {
-  .sourcify-section {
-    padding: 48px 0;
-  }
+	.sourcify-section {
+		padding: 48px 0;
+	}
 
-  .sourcify-card {
-    padding: 40px 24px;
-    border-radius: 16px;
-  }
+	.sourcify-card {
+		padding: 40px 24px;
+		border-radius: 16px;
+	}
 
-  .sourcify-card-newsletter {
-    padding: 40px 24px 56px;
-  }
+	.sourcify-card-newsletter {
+		padding: 40px 24px 56px;
+	}
 
-  .sourcify-form {
-    flex-direction: column;
-    border-radius: 18px;
-    gap: 8px;
-    background: rgba(31, 42, 55, 0.9);
-  }
+	.sourcify-form {
+		flex-direction: column;
+		border-radius: 18px;
+		gap: 8px;
+		background: rgba(31, 42, 55, 0.9);
+	}
 
-  .sourcify-input,
-  .sourcify-btn-submit {
-    width: 100%;
-  }
+	.sourcify-input,
+	.sourcify-btn-submit {
+		width: 100%;
+	}
 
-  .sourcify-spark {
-    display: none;
-  }
+	.sourcify-spark {
+		display: none;
+	}
 }
 
 
 .px-0-important {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 
 
 @media only screen and (min-width: 900px) and (max-width: 1200px) {
-.navbar-inverse .navbar-nav>li>a {
-    font-size: 10px;
+	.navbar-inverse .navbar-nav>li>a {
+		font-size: 10px;
+	}
+
+	.navbar-inverse .dropdown-menu>li>a {
+		font-size: 10px;
+	}
 }
-.navbar-inverse .dropdown-menu>li>a {
-	font-size: 10px;
-}
-}
+
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
-.navbar-inverse .navbar-nav>li>a {
-    font-size: 13px;
+	.navbar-inverse .navbar-nav>li>a {
+		font-size: 13px;
+	}
+
+	.navbar-inverse .dropdown-menu>li>a {
+		font-size: 13px;
+	}
 }
-.navbar-inverse .dropdown-menu>li>a {
-	font-size: 13px;
-}
-}
+
 @media only screen and (min-width: 1401px) and (max-width: 1600px) {
-.navbar-inverse .navbar-nav>li>a {
-    font-size: 13px;
-}
-.navbar-inverse .dropdown-menu>li>a {
-	font-size: 13px;
-}
+	.navbar-inverse .navbar-nav>li>a {
+		font-size: 13px;
+	}
+
+	.navbar-inverse .dropdown-menu>li>a {
+		font-size: 13px;
+	}
 }
 
 
@@ -3414,59 +3419,59 @@ footer h4 {
 ========================================= */
 
 .ramkol-abt-inner-section {
-    position: relative;
-    overflow: hidden;
-    padding: 60px 0;
-    background: #f5f3ee;
-    color: #17251f;
+	position: relative;
+	overflow: hidden;
+	padding: 60px 0;
+	background: #f5f3ee;
+	color: #17251f;
 }
 
 .ramkol-abt-inner-section::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 360px;
-    height: 360px;
-    border-radius: 50%;
-    background: #e5d9d9;
-    opacity: 0.55;
-    transform: translate(45%, -45%);
-    pointer-events: none;
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 360px;
+	height: 360px;
+	border-radius: 50%;
+	background: #e5d9d9;
+	opacity: 0.55;
+	transform: translate(45%, -45%);
+	pointer-events: none;
 }
 
 .ramkol-abt-inner-intro {
-    position: relative;
-    z-index: 1;
-    margin-bottom: 70px;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 70px;
 }
 
 .ramkol-abt-inner-eyebrow {
-    display: inline-flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 20px;
-    color: #182842;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 2.2px;
-    text-transform: uppercase;
+	display: inline-flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 20px;
+	color: #182842;
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: 2.2px;
+	text-transform: uppercase;
 }
 
 .ramkol-abt-inner-eyebrow::before {
-    content: "";
-    width: 28px;
-    height: 1px;
-    background: #c62828;
+	content: "";
+	width: 28px;
+	height: 1px;
+	background: #c62828;
 }
 
 .ramkol-abt-inner-title {
-    max-width: 760px;
-    margin: 0;
-    font-size: clamp(42px, 5vw, 76px);
-    font-weight: 500;
-    line-height: 0.98;
-    letter-spacing: -3px;
+	max-width: 760px;
+	margin: 0;
+	font-size: clamp(42px, 5vw, 76px);
+	font-weight: 500;
+	line-height: 0.98;
+	letter-spacing: -3px;
 }
 
 .ramkol-abt-inner-title span,
@@ -3474,15 +3479,15 @@ footer h4 {
 .ramkol-abt-inner-capabilities-title span,
 .ramkol-abt-inner-leadership-label h3 span,
 .ramkol-abt-inner-careers h3 span {
-    color: #c62828;
+	color: #c62828;
 }
 
 .ramkol-abt-inner-intro-text {
-    max-width: 500px;
-    margin: 0 0 5px auto;
-    color: #66726b;
-    font-size: 17px;
-    line-height: 1.8;
+	max-width: 500px;
+	margin: 0 0 5px auto;
+	color: #66726b;
+	font-size: 17px;
+	line-height: 1.8;
 }
 
 
@@ -3491,99 +3496,99 @@ footer h4 {
 ========================================= */
 
 .ramkol-abt-inner-overview {
-    position: relative;
-    z-index: 1;
-    margin-bottom: 24px;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 24px;
 }
 
 .ramkol-abt-inner-experience {
-    height: 100%;
-    padding: 42px;
-    background: #1b1b1b;
-    color: #fff;
-    border-radius: 2px;
+	height: 100%;
+	padding: 42px;
+	background: #1b1b1b;
+	color: #fff;
+	border-radius: 2px;
 }
 
 .ramkol-abt-inner-experience-number {
-    margin-bottom: 8px;
-    font-size: 88px;
-    font-weight: 600;
-    line-height: 0.9;
-    letter-spacing: -5px;
+	margin-bottom: 8px;
+	font-size: 88px;
+	font-weight: 600;
+	line-height: 0.9;
+	letter-spacing: -5px;
 }
 
 .ramkol-abt-inner-experience-number span {
-    color: #c62828;
-    font-size: 45px;
-    vertical-align: top;
-    letter-spacing: -2px;
+	color: #c62828;
+	font-size: 45px;
+	vertical-align: top;
+	letter-spacing: -2px;
 }
 
 .ramkol-abt-inner-experience-label {
-    color: #d3ddd8;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 1.45;
+	color: #d3ddd8;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 1.45;
 }
 
 .ramkol-abt-inner-experience-line {
-    width: 100%;
-    height: 1px;
-    margin: 15px 0 15px;
-    background: #C62828;
+	width: 100%;
+	height: 1px;
+	margin: 15px 0 15px;
+	background: #C62828;
 }
 
 .ramkol-abt-inner-experience p {
-    margin: 0;
-    color: #b9c7c0;
-    font-size: 14px;
-    line-height: 1.8;
+	margin: 0;
+	color: #b9c7c0;
+	font-size: 14px;
+	line-height: 1.8;
 }
 
 .ramkol-abt-inner-overview-card {
-    height: 100%;
-    padding: 42px;
-    border: 1px solid #d8d8d1;
-    background: #fff;
+	height: 100%;
+	padding: 42px;
+	border: 1px solid #d8d8d1;
+	background: #fff;
 }
 
 .ramkol-abt-inner-card-heading {
-    display: flex;
-    align-items: center;
-    gap: 18px;
-    margin-bottom: 22px;
+	display: flex;
+	align-items: center;
+	gap: 18px;
+	margin-bottom: 22px;
 }
 
 .ramkol-abt-inner-card-heading span {
-    color: #c62828;
-    font-size: 12px;
-    font-weight: 700;
+	color: #c62828;
+	font-size: 12px;
+	font-weight: 700;
 }
 
 .ramkol-abt-inner-card-heading h3 {
-    margin: 0;
-    font-size: 29px;
-    font-weight: 500;
+	margin: 0;
+	font-size: 29px;
+	font-weight: 500;
 }
 
-.ramkol-abt-inner-overview-card > p {
-    max-width: 720px;
-    margin-bottom: 30px;
-    color: #69756e;
-    line-height: 1.8;
+.ramkol-abt-inner-overview-card>p {
+	max-width: 720px;
+	margin-bottom: 30px;
+	color: #69756e;
+	line-height: 1.8;
 }
 
 .ramkol-abt-inner-service-tags {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 .ramkol-abt-inner-tag {
-    padding: 13px 16px;
-    border: 1px solid #e0e1db;
-    color: #36453d;
-    background: #f8f8f5;
-    font-size: 12px;
-    font-weight: 600;
+	padding: 13px 16px;
+	border: 1px solid #e0e1db;
+	color: #36453d;
+	background: #f8f8f5;
+	font-size: 12px;
+	font-weight: 600;
 }
 
 
@@ -3592,61 +3597,61 @@ footer h4 {
 ========================================= */
 
 .ramkol-abt-inner-purpose {
-    margin-bottom: 60px;
+	margin-bottom: 60px;
 }
 
 .ramkol-abt-inner-purpose-card {
-    min-height: 310px;
-    padding: 42px;
-    position: relative;
-    overflow: hidden;
+	min-height: 310px;
+	padding: 42px;
+	position: relative;
+	overflow: hidden;
 }
 
 .ramkol-abt-inner-mission {
-    background: #e6ded0;
+	background: #e6ded0;
 }
 
 .ramkol-abt-inner-vision {
-    background: #dce7df;
+	background: #dce7df;
 }
 
 .ramkol-abt-inner-purpose-top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 48px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 48px;
 }
 
-.ramkol-abt-inner-purpose-top > span {
-    color: #c62828;
-    font-size: 12px;
-    font-weight: 700;
+.ramkol-abt-inner-purpose-top>span {
+	color: #c62828;
+	font-size: 12px;
+	font-weight: 700;
 }
 
 .ramkol-abt-inner-purpose-icon {
-    width: 48px;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(24, 56, 45, 0.2);
-    border-radius: 50%;
-    color: #1b1b1b;
-    font-size: 19px !important;
+	width: 48px;
+	height: 48px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgba(24, 56, 45, 0.2);
+	border-radius: 50%;
+	color: #1b1b1b;
+	font-size: 19px !important;
 }
 
 .ramkol-abt-inner-purpose-card h3 {
-    margin-bottom: 18px;
-    font-size: 32px;
-    font-weight: 500;
+	margin-bottom: 18px;
+	font-size: 32px;
+	font-weight: 500;
 }
 
 .ramkol-abt-inner-purpose-card p {
-    max-width: 600px;
-    margin: 0;
-    color: #59665f;
-    font-size: 15px;
-    line-height: 1.8;
+	max-width: 600px;
+	margin: 0;
+	color: #59665f;
+	font-size: 15px;
+	line-height: 1.8;
 }
 
 
@@ -3655,60 +3660,60 @@ footer h4 {
 ========================================= */
 
 .ramkol-abt-inner-partner {
-    padding: 60px 0;
-    margin-bottom: 60px;
-    border-top: 1px solid #d9d9d2;
-    border-bottom: 1px solid #d9d9d2;
+	padding: 60px 0;
+	margin-bottom: 60px;
+	border-top: 1px solid #d9d9d2;
+	border-bottom: 1px solid #d9d9d2;
 }
 
 .ramkol-abt-inner-partner-title {
-    max-width: 400px;
-    margin: 0 0 22px;
-    font-size: 45px;
-    font-weight: 500;
-    line-height: 1.05;
-    letter-spacing: -1.5px;
+	max-width: 400px;
+	margin: 0 0 22px;
+	font-size: 45px;
+	font-weight: 500;
+	line-height: 1.05;
+	letter-spacing: -1.5px;
 }
 
 .ramkol-abt-inner-partner-title strong {
-    color: #c62828;
-    font-weight: 500;
+	color: #c62828;
+	font-weight: 500;
 }
 
 .ramkol-abt-inner-partner-copy {
-    max-width: 470px;
-    margin: 0;
-    color: #68746d;
-    line-height: 1.8;
+	max-width: 470px;
+	margin: 0;
+	color: #68746d;
+	line-height: 1.8;
 }
 
 .ramkol-abt-inner-benefit {
-    min-height: 245px;
-    padding: 28px;
-    background: #fff;
-    border: 1px solid #deded8;
+	min-height: 245px;
+	padding: 28px;
+	background: #fff;
+	border: 1px solid #deded8;
 }
 
-.ramkol-abt-inner-benefit > span {
-    display: block;
-    margin-bottom: 35px;
-    color: #c62828;
-    font-size: 11px;
-    font-weight: 700;
+.ramkol-abt-inner-benefit>span {
+	display: block;
+	margin-bottom: 35px;
+	color: #c62828;
+	font-size: 11px;
+	font-weight: 700;
 }
 
 .ramkol-abt-inner-benefit h4 {
-    margin-bottom: 12px;
-    color: #1b1b1b;
-    font-size: 20px;
-    font-weight: 600;
+	margin-bottom: 12px;
+	color: #1b1b1b;
+	font-size: 20px;
+	font-weight: 600;
 }
 
 .ramkol-abt-inner-benefit p {
-    margin: 0;
-    color: #707b75;
-    font-size: 13px;
-    line-height: 1.7;
+	margin: 0;
+	color: #707b75;
+	font-size: 13px;
+	line-height: 1.7;
 }
 
 
@@ -3717,69 +3722,69 @@ footer h4 {
 ========================================= */
 
 .ramkol-abt-inner-global {
-    margin-bottom: 60px;
+	margin-bottom: 60px;
 }
 
 .ramkol-abt-inner-global-title {
-    max-width: 480px;
-    margin: 0 0 22px;
-    font-size: 50px;
-    font-weight: 500;
-    line-height: 1;
-    letter-spacing: -2px;
+	max-width: 480px;
+	margin: 0 0 22px;
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 1;
+	letter-spacing: -2px;
 }
 
-.ramkol-abt-inner-global > .row > .col-lg-5 > p {
-    max-width: 440px;
-    margin: 0;
-    color: #6a766f;
-    line-height: 1.8;
+.ramkol-abt-inner-global>.row>.col-lg-5>p {
+	max-width: 440px;
+	margin: 0;
+	color: #6a766f;
+	line-height: 1.8;
 }
 
 .ramkol-abt-inner-region {
-    min-height: 120px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 24px;
-    background: #1b1b1b;
-    color: #fff;
-    transition: transform 0.3s ease, background 0.3s ease;
+	min-height: 120px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	padding: 24px;
+	background: #1b1b1b;
+	color: #fff;
+	transition: transform 0.3s ease, background 0.3s ease;
 }
 
 .ramkol-abt-inner-region:hover {
-    background: #c62828;
-    transform: translateY(-4px);
+	background: #c62828;
+	transform: translateY(-4px);
 }
 
 .ramkol-abt-inner-region-no {
-    align-self: flex-start;
-    color: #bcbcbc;
-    font-size: 11px;
-    font-weight: 700;
+	align-self: flex-start;
+	color: #bcbcbc;
+	font-size: 11px;
+	font-weight: 700;
 }
 
 .ramkol-abt-inner-region div {
-    flex: 1;
+	flex: 1;
 }
 
 .ramkol-abt-inner-region small {
-    display: block;
-    margin-bottom: 6px;
-    color: #aebdb5;
-    font-size: 9px;
-    letter-spacing: 1.5px;
+	display: block;
+	margin-bottom: 6px;
+	color: #aebdb5;
+	font-size: 9px;
+	letter-spacing: 1.5px;
 }
 
 .ramkol-abt-inner-region h4 {
-    margin: 0;
-    font-size: 18px;
-    font-weight: 500;
+	margin: 0;
+	font-size: 18px;
+	font-weight: 500;
 }
 
 .ramkol-abt-inner-region i {
-    color: #c62828;
-    font-size: 17px;
+	color: #c62828;
+	font-size: 17px;
 }
 
 
@@ -3788,70 +3793,70 @@ footer h4 {
 ========================================= */
 
 .ramkol-abt-inner-capabilities {
-    margin-bottom: 60px;
+	margin-bottom: 60px;
 }
 
 .ramkol-abt-inner-capabilities-title {
-    max-width: 600px;
-    margin: 0;
-    font-size: 52px;
-    font-weight: 500;
-    line-height: 1;
-    letter-spacing: -2px;
+	max-width: 600px;
+	margin: 0;
+	font-size: 52px;
+	font-weight: 500;
+	line-height: 1;
+	letter-spacing: -2px;
 }
 
 .ramkol-abt-inner-capabilities-intro {
-    max-width: 430px;
-    margin: 0 0 3px auto;
-    color: #68746d;
-    line-height: 1.8;
+	max-width: 430px;
+	margin: 0 0 3px auto;
+	color: #68746d;
+	line-height: 1.8;
 }
 
 .ramkol-abt-inner-capability-list {
-    border-top: 1px solid #cfd0c9;
+	border-top: 1px solid #cfd0c9;
 }
 
 .ramkol-abt-inner-capability-row {
-    display: grid;
-    grid-template-columns: 70px 1fr 50px;
-    gap: 30px;
-    align-items: center;
-    padding: 30px 5px;
-    border-bottom: 1px solid #cfd0c9;
-    transition: padding 0.3s ease, background 0.3s ease;
+	display: grid;
+	grid-template-columns: 70px 1fr 50px;
+	gap: 30px;
+	align-items: center;
+	padding: 30px 5px;
+	border-bottom: 1px solid #cfd0c9;
+	transition: padding 0.3s ease, background 0.3s ease;
 }
 
 .ramkol-abt-inner-capability-row:hover {
-    padding-left: 20px;
-    padding-right: 20px;
-    background: #fff;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: #fff;
 }
 
-.ramkol-abt-inner-capability-row > span {
-    color: #c62828;
-    font-size: 11px;
-    font-weight: 700;
+.ramkol-abt-inner-capability-row>span {
+	color: #c62828;
+	font-size: 11px;
+	font-weight: 700;
 }
 
 .ramkol-abt-inner-capability-row h4 {
-    margin: 0 0 7px;
-    color: #1b1b1b;
-    font-size: 22px;
-    font-weight: 500;
+	margin: 0 0 7px;
+	color: #1b1b1b;
+	font-size: 22px;
+	font-weight: 500;
 }
 
 .ramkol-abt-inner-capability-row p {
-    max-width: 720px;
-    margin: 0;
-    color: #707b75;
-    font-size: 13px;
-    line-height: 1.7;
+	max-width: 720px;
+	margin: 0;
+	color: #707b75;
+	font-size: 13px;
+	line-height: 1.7;
 }
 
 .ramkol-abt-inner-capability-row i {
-    color: #c62828;
-    font-size: 19px;
-    text-align: right;
+	color: #c62828;
+	font-size: 19px;
+	text-align: right;
 }
 
 
@@ -3860,51 +3865,51 @@ footer h4 {
 ========================================= */
 
 .ramkol-abt-inner-leadership {
-    margin-bottom: 60px;
-    padding: 60px 0;
-    border-top: 1px solid #d5d5ce;
-    border-bottom: 1px solid #d5d5ce;
+	margin-bottom: 60px;
+	padding: 60px 0;
+	border-top: 1px solid #d5d5ce;
+	border-bottom: 1px solid #d5d5ce;
 }
 
 .ramkol-abt-inner-leadership-label h3 {
-    max-width: 400px;
-    margin: 0;
-    font-size: 42px;
-    font-weight: 500;
-    line-height: 1.05;
-    letter-spacing: -1px;
+	max-width: 400px;
+	margin: 0;
+	font-size: 42px;
+	font-weight: 500;
+	line-height: 1.05;
+	letter-spacing: -1px;
 }
 
 .ramkol-abt-inner-leadership-content {
-    padding-left: 40px;
-    border-left: 1px solid #d0d0c8;
+	padding-left: 40px;
+	border-left: 1px solid #d0d0c8;
 }
 
-.ramkol-abt-inner-leadership-content > p {
-    max-width: 650px;
-    margin: 0;
-    color: #657169;
-    font-size: 18px;
-    line-height: 1.9;
+.ramkol-abt-inner-leadership-content>p {
+	max-width: 650px;
+	margin: 0;
+	color: #657169;
+	font-size: 18px;
+	line-height: 1.9;
 }
 
 .ramkol-abt-inner-leadership-sign {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-top: 35px;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	margin-top: 35px;
 }
 
 .ramkol-abt-inner-leadership-sign span {
-    width: 40px;
-    height: 1px;
-    background: #c62828;
+	width: 40px;
+	height: 1px;
+	background: #c62828;
 }
 
 .ramkol-abt-inner-leadership-sign strong {
-    color: #1b1b1b;
-    font-size: 10px;
-    letter-spacing: 2px;
+	color: #1b1b1b;
+	font-size: 10px;
+	letter-spacing: 2px;
 }
 
 
@@ -3913,101 +3918,101 @@ footer h4 {
 ========================================= */
 
 .ramkol-abt-inner-careers {
-    position: relative;
-    overflow: hidden;
-    padding: 65px;
-    background: #1b1b1b;
-    color: #fff;
+	position: relative;
+	overflow: hidden;
+	padding: 65px;
+	background: #1b1b1b;
+	color: #fff;
 }
 
 .ramkol-abt-inner-careers::after {
-    content: "R";
-    position: absolute;
-    right: 20px;
-    bottom: -90px;
-    color: rgba(255, 255, 255, 0.035);
-    font-size: 300px;
-    font-weight: 700;
-    line-height: 1;
+	content: "R";
+	position: absolute;
+	right: 20px;
+	bottom: -90px;
+	color: rgba(255, 255, 255, 0.035);
+	font-size: 300px;
+	font-weight: 700;
+	line-height: 1;
 }
 
 .ramkol-abt-inner-careers-label {
-    display: block;
-    margin-bottom: 18px;
-    color: #c62828;
-    font-size: 11px;
-    font-weight: 700;
-    letter-spacing: 2px;
+	display: block;
+	margin-bottom: 18px;
+	color: #c62828;
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: 2px;
 }
 
 .ramkol-abt-inner-careers h3 {
-    position: relative;
-    z-index: 1;
-    max-width: 700px;
-    margin: 0 0 20px;
-    font-size: 50px;
-    font-weight: 500;
-    line-height: 1;
-    letter-spacing: -2px;
+	position: relative;
+	z-index: 1;
+	max-width: 700px;
+	margin: 0 0 20px;
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 1;
+	letter-spacing: -2px;
 }
 
 .ramkol-abt-inner-careers p {
-    position: relative;
-    z-index: 1;
-    max-width: 700px;
-    margin: 0;
-    color: #b9c8c0;
-    line-height: 1.8;
+	position: relative;
+	z-index: 1;
+	max-width: 700px;
+	margin: 0;
+	color: #b9c8c0;
+	line-height: 1.8;
 }
 
 .ramkol-abt-inner-career-points {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 28px;
+	position: relative;
+	z-index: 1;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-top: 28px;
 }
 
 .ramkol-abt-inner-career-points span {
-    padding: 9px 13px;
-    border: 1px solid #496258;
-    color: #d1dcd6;
-    font-size: 11px;
+	padding: 9px 13px;
+	border: 1px solid #496258;
+	color: #d1dcd6;
+	font-size: 11px;
 }
 
 .ramkol-abt-inner-career-btn {
-    position: relative;
-    z-index: 2;
-    display: inline-flex;
-    align-items: center;
-    gap: 20px;
-    padding: 16px 22px;
-    background: #c62828;
-    color: #1b1b1b;
-    font-size: 12px;
-    font-weight: 700;
-    text-decoration: none;
-    transition: all 0.3s ease;
+	position: relative;
+	z-index: 2;
+	display: inline-flex;
+	align-items: center;
+	gap: 20px;
+	padding: 16px 22px;
+	background: #c62828;
+	color: #1b1b1b;
+	font-size: 12px;
+	font-weight: 700;
+	text-decoration: none;
+	transition: all 0.3s ease;
 }
 
 .ramkol-abt-inner-career-btn:hover {
-    background: #fff;
-    color: #1b1b1b;
-    transform: translateY(-3px);
+	background: #fff;
+	color: #1b1b1b;
+	transform: translateY(-3px);
 }
 
 .ramkol-abt-inner-career-btn i {
-    font-size: 16px;
+	font-size: 16px;
 }
 
 .ramkol-abt-inner-careers small {
-    position: relative;
-    z-index: 2;
-    display: block;
-    margin-top: 14px;
-    color: #9eafa6;
-    font-size: 11px;
+	position: relative;
+	z-index: 2;
+	display: block;
+	margin-top: 14px;
+	color: #9eafa6;
+	font-size: 11px;
 }
 
 
@@ -4017,602 +4022,602 @@ footer h4 {
 
 @media (max-width: 991.98px) {
 
-    .ramkol-abt-inner-section {
-        padding: 90px 0;
-    }
+	.ramkol-abt-inner-section {
+		padding: 90px 0;
+	}
 
-    .ramkol-abt-inner-intro {
-        margin-bottom: 50px;
-    }
+	.ramkol-abt-inner-intro {
+		margin-bottom: 50px;
+	}
 
-    .ramkol-abt-inner-intro-text {
-        margin: 30px 0 0;
-    }
+	.ramkol-abt-inner-intro-text {
+		margin: 30px 0 0;
+	}
 
-    .ramkol-abt-inner-purpose {
-        margin-bottom: 80px;
-    }
+	.ramkol-abt-inner-purpose {
+		margin-bottom: 80px;
+	}
 
-    .ramkol-abt-inner-partner,
-    .ramkol-abt-inner-global,
-    .ramkol-abt-inner-capabilities {
-        margin-bottom: 90px;
-    }
+	.ramkol-abt-inner-partner,
+	.ramkol-abt-inner-global,
+	.ramkol-abt-inner-capabilities {
+		margin-bottom: 90px;
+	}
 
-    .ramkol-abt-inner-capabilities-intro {
-        margin: 25px 0 0;
-    }
+	.ramkol-abt-inner-capabilities-intro {
+		margin: 25px 0 0;
+	}
 
-    .ramkol-abt-inner-leadership-content {
-        padding-left: 0;
-        padding-top: 35px;
-        margin-top: 35px;
-        border-left: 0;
-        border-top: 1px solid #d0d0c8;
-    }
+	.ramkol-abt-inner-leadership-content {
+		padding-left: 0;
+		padding-top: 35px;
+		margin-top: 35px;
+		border-left: 0;
+		border-top: 1px solid #d0d0c8;
+	}
 
-    .ramkol-abt-inner-careers {
-        padding: 50px 40px;
-    }
+	.ramkol-abt-inner-careers {
+		padding: 50px 40px;
+	}
 
-    .ramkol-abt-inner-careers h3 {
-        font-size: 43px;
-    }
+	.ramkol-abt-inner-careers h3 {
+		font-size: 43px;
+	}
 
-    .ramkol-abt-inner-careers .col-lg-4 {
-        margin-top: 35px;
-        text-align: left !important;
-    }
+	.ramkol-abt-inner-careers .col-lg-4 {
+		margin-top: 35px;
+		text-align: left !important;
+	}
 }
 
 
 @media (max-width: 767.98px) {
 
-    .ramkol-abt-inner-section {
-        padding: 70px 0;
-    }
+	.ramkol-abt-inner-section {
+		padding: 70px 0;
+	}
 
-    .ramkol-abt-inner-title {
-        font-size: 47px;
-        letter-spacing: -2px;
-    }
+	.ramkol-abt-inner-title {
+		font-size: 47px;
+		letter-spacing: -2px;
+	}
 
-    .ramkol-abt-inner-intro {
-        margin-bottom: 40px;
-    }
+	.ramkol-abt-inner-intro {
+		margin-bottom: 40px;
+	}
 
-    .ramkol-abt-inner-experience,
-    .ramkol-abt-inner-overview-card,
-    .ramkol-abt-inner-purpose-card {
-        padding: 30px;
-    }
+	.ramkol-abt-inner-experience,
+	.ramkol-abt-inner-overview-card,
+	.ramkol-abt-inner-purpose-card {
+		padding: 30px;
+	}
 
-    .ramkol-abt-inner-experience-number {
-        font-size: 72px;
-    }
+	.ramkol-abt-inner-experience-number {
+		font-size: 72px;
+	}
 
-    .ramkol-abt-inner-purpose-top {
-        margin-bottom: 35px;
-    }
+	.ramkol-abt-inner-purpose-top {
+		margin-bottom: 35px;
+	}
 
-    .ramkol-abt-inner-partner {
-        padding: 55px 0;
-        margin-bottom: 75px;
-    }
+	.ramkol-abt-inner-partner {
+		padding: 55px 0;
+		margin-bottom: 75px;
+	}
 
-    .ramkol-abt-inner-partner-title {
-        font-size: 39px;
-    }
+	.ramkol-abt-inner-partner-title {
+		font-size: 39px;
+	}
 
-    .ramkol-abt-inner-global-title,
-    .ramkol-abt-inner-capabilities-title {
-        font-size: 42px;
-    }
+	.ramkol-abt-inner-global-title,
+	.ramkol-abt-inner-capabilities-title {
+		font-size: 42px;
+	}
 
-    .ramkol-abt-inner-region {
-        min-height: 100px;
-    }
+	.ramkol-abt-inner-region {
+		min-height: 100px;
+	}
 
-    .ramkol-abt-inner-capability-row {
-        grid-template-columns: 40px 1fr 25px;
-        gap: 15px;
-        padding: 25px 0;
-    }
+	.ramkol-abt-inner-capability-row {
+		grid-template-columns: 40px 1fr 25px;
+		gap: 15px;
+		padding: 25px 0;
+	}
 
-    .ramkol-abt-inner-capability-row h4 {
-        font-size: 18px;
-    }
+	.ramkol-abt-inner-capability-row h4 {
+		font-size: 18px;
+	}
 
-    .ramkol-abt-inner-capability-row p {
-        font-size: 12px;
-    }
+	.ramkol-abt-inner-capability-row p {
+		font-size: 12px;
+	}
 
-    .ramkol-abt-inner-leadership {
-        margin-bottom: 75px;
-        padding: 50px 0;
-    }
+	.ramkol-abt-inner-leadership {
+		margin-bottom: 75px;
+		padding: 50px 0;
+	}
 
-    .ramkol-abt-inner-leadership-label h3 {
-        font-size: 37px;
-    }
+	.ramkol-abt-inner-leadership-label h3 {
+		font-size: 37px;
+	}
 
-    .ramkol-abt-inner-careers {
-        padding: 40px 28px;
-    }
+	.ramkol-abt-inner-careers {
+		padding: 40px 28px;
+	}
 
-    .ramkol-abt-inner-careers h3 {
-        font-size: 38px;
-        letter-spacing: -1px;
-    }
+	.ramkol-abt-inner-careers h3 {
+		font-size: 38px;
+		letter-spacing: -1px;
+	}
 
-    .ramkol-abt-inner-careers p {
-        font-size: 14px;
-    }
+	.ramkol-abt-inner-careers p {
+		font-size: 14px;
+	}
 }
 
 
 @media (max-width: 575.98px) {
 
-    .ramkol-abt-inner-title {
-        font-size: 40px;
-    }
+	.ramkol-abt-inner-title {
+		font-size: 40px;
+	}
 
-    .ramkol-abt-inner-intro-text {
-        font-size: 15px;
-    }
+	.ramkol-abt-inner-intro-text {
+		font-size: 15px;
+	}
 
-    .ramkol-abt-inner-experience-number {
-        font-size: 65px;
-    }
+	.ramkol-abt-inner-experience-number {
+		font-size: 65px;
+	}
 
-    .ramkol-abt-inner-card-heading h3 {
-        font-size: 24px;
-    }
+	.ramkol-abt-inner-card-heading h3 {
+		font-size: 24px;
+	}
 
-    .ramkol-abt-inner-purpose-card {
-        min-height: auto;
-    }
+	.ramkol-abt-inner-purpose-card {
+		min-height: auto;
+	}
 
-    .ramkol-abt-inner-global-title,
-    .ramkol-abt-inner-capabilities-title {
-        font-size: 36px;
-    }
+	.ramkol-abt-inner-global-title,
+	.ramkol-abt-inner-capabilities-title {
+		font-size: 36px;
+	}
 
-    .ramkol-abt-inner-benefit {
-        min-height: auto;
-    }
+	.ramkol-abt-inner-benefit {
+		min-height: auto;
+	}
 
-    .ramkol-abt-inner-capability-row {
-        grid-template-columns: 32px 1fr;
-    }
+	.ramkol-abt-inner-capability-row {
+		grid-template-columns: 32px 1fr;
+	}
 
-    .ramkol-abt-inner-capability-row i {
-        display: none;
-    }
+	.ramkol-abt-inner-capability-row i {
+		display: none;
+	}
 
-    .ramkol-abt-inner-careers h3 {
-        font-size: 34px;
-    }
+	.ramkol-abt-inner-careers h3 {
+		font-size: 34px;
+	}
 
-    .ramkol-abt-inner-career-points {
-        display: block;
-    }
+	.ramkol-abt-inner-career-points {
+		display: block;
+	}
 
-    .ramkol-abt-inner-career-points span {
-        display: inline-block;
-        margin: 0 5px 7px 0;
-    }
+	.ramkol-abt-inner-career-points span {
+		display: inline-block;
+		margin: 0 5px 7px 0;
+	}
 
-    .ramkol-abt-inner-career-btn {
-        width: 100%;
-        justify-content: space-between;
-    }
+	.ramkol-abt-inner-career-btn {
+		width: 100%;
+		justify-content: space-between;
+	}
 }
 
 
 .dropdown-submenu {
-    position: relative;
+	position: relative;
 }
 
-.dropdown-submenu > .dropdown-menu {
+.dropdown-submenu>.dropdown-menu {
 	max-width: 100% !important;
-    top: 0;
-    left: 100%;
-    margin-top: -1px;
+	top: 0;
+	left: 100%;
+	margin-top: -1px;
 }
 
-.dropdown-submenu:hover > .dropdown-menu {
-    display: block;
+.dropdown-submenu:hover>.dropdown-menu {
+	display: block;
 }
 
-.dropdown-submenu > a:after {
-    content: "▶";  
-    float: right;
-    margin-top: 2px;
-    font-size: 10px;
+.dropdown-submenu>a:after {
+	content: "▶";
+	float: right;
+	margin-top: 2px;
+	font-size: 10px;
 }
 
 .line-height-23 {
-    line-height: 23px;
+	line-height: 23px;
 }
 
 
 
 
-.ramkol-gen-enq-form-sec{
-    background:#f5f7fa;
-	    padding: 50px 0px;
+.ramkol-gen-enq-form-sec {
+	background: #f5f7fa;
+	padding: 50px 0px;
 }
 
-.ramkol-gen-enq-form-wrap{
-    background:#ffffff;
-    border-radius:24px;
-    overflow:hidden;
-    box-shadow:0 15px 50px rgba(0,0,0,0.08);
+.ramkol-gen-enq-form-wrap {
+	background: #ffffff;
+	border-radius: 24px;
+	overflow: hidden;
+	box-shadow: 0 15px 50px rgba(0, 0, 0, 0.08);
 }
 
 /* Left Panel */
 
-.ramkol-gen-enq-form-info{
-    background:#0f172a;
-    color:#fff;
-    padding:60px 40px;
+.ramkol-gen-enq-form-info {
+	background: #0f172a;
+	color: #fff;
+	padding: 60px 40px;
 }
 
-.ramkol-gen-enq-form-tag{
-    display:inline-block;
-    background:#1e293b;
-    color:#fff;
-    padding:10px 18px;
-    border-radius:50px;
-    font-size:13px;
-    font-weight:600;
-    letter-spacing:0.5px;
-    margin-bottom:20px;
+.ramkol-gen-enq-form-tag {
+	display: inline-block;
+	background: #1e293b;
+	color: #fff;
+	padding: 10px 18px;
+	border-radius: 50px;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	margin-bottom: 20px;
 }
 
-.ramkol-gen-enq-form-title{
-    font-size:42px;
-    font-weight:700;
-    line-height:1.2;
-    margin-bottom:20px;
+.ramkol-gen-enq-form-title {
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 1.2;
+	margin-bottom: 20px;
 }
 
-.ramkol-gen-enq-form-desc{
-    color:#cbd5e1;
-    font-size:15px;
-    line-height:28px;
-    margin-bottom:35px;
+.ramkol-gen-enq-form-desc {
+	color: #cbd5e1;
+	font-size: 15px;
+	line-height: 28px;
+	margin-bottom: 35px;
 }
 
-.ramkol-gen-enq-form-feature-list{
-    display:flex;
-    flex-direction:column;
-    gap:15px;
+.ramkol-gen-enq-form-feature-list {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
 }
 
-.ramkol-gen-enq-form-feature{
-    padding:14px 18px;
-    background:rgba(255,255,255,0.08);
-    border-radius:12px;
-    font-size:15px;
+.ramkol-gen-enq-form-feature {
+	padding: 14px 18px;
+	background: rgba(255, 255, 255, 0.08);
+	border-radius: 12px;
+	font-size: 15px;
 }
 
 /* Form Side */
 
-.ramkol-gen-enq-form-card{
-    padding:30px;
+.ramkol-gen-enq-form-card {
+	padding: 30px;
 }
 
-.ramkol-gen-enq-form-head h3{
-    font-size:30px;
-    font-weight:700;
-    color:#111827;
-    margin-bottom:10px;
-}
-
-.ramkol-gen-enq-form-head p{
-    color:#6b7280;
-    margin-bottom:35px;
-}
-
-.ramkol-gen-enq-form-block,
-.ramkol-genq-form-block{
-    margin-bottom:35px;
-}
-
-.ramkol-gen-enq-form-block h5,
-.ramkol-genq-form-block h5{
-    font-size:18px;
-    font-weight:700;
-    margin-bottom:25px;
-    color:#111827;
-    padding-bottom:12px;
-    border-bottom:1px solid #e5e7eb;
-}
-
-.ramkol-gen-enq-form-card label{
-    font-size:14px;
-    font-weight:600;
-    margin-bottom:2px;
-    color:#374151;
-}
-
-.ramkol-gen-enq-form-card .form-control,
-.ramkol-gen-enq-form-card .form-select{
-	width: 95%;
-    border:1px solid #d1d5db;
-    border-radius:12px;
-    min-height:54px;
-    padding:12px 16px;
-    box-shadow:none;
-}
-
-.ramkol-gen-enq-form-card textarea.form-control{
-    min-height:150px;
-}
-
-.ramkol-gen-enq-form-card .form-control:focus,
-.ramkol-gen-enq-form-card .form-select:focus{
-    border-color:#0f172a;
-    box-shadow:none;
-}
-
-.ramkol-gen-enq-form-check{
-	    width: 95%;
-    display:flex;
-    align-items:center;
-    gap:10px;
-    padding:14px 16px;
-    border:1px solid #e5e7eb;
-    border-radius:12px;
-    background:#fafafa;
+.ramkol-gen-enq-form-head h3 {
+	font-size: 30px;
+	font-weight: 700;
+	color: #111827;
 	margin-bottom: 10px;
 }
 
-.ramkol-gen-enq-form-check label{
-    margin:0;
-    cursor:pointer;
+.ramkol-gen-enq-form-head p {
+	color: #6b7280;
+	margin-bottom: 35px;
 }
 
-.ramkol-gen-enq-form-btn{
-    width:100%;
-    border:none;
-    background:#0f172a;
-    color:#fff;
-    padding:16px 25px;
-    border-radius:14px;
-    font-size:16px;
-    font-weight:600;
-    transition:0.3s ease;
+.ramkol-gen-enq-form-block,
+.ramkol-genq-form-block {
+	margin-bottom: 35px;
 }
 
-.ramkol-gen-enq-form-btn:hover{
-    background:#1e293b;
+.ramkol-gen-enq-form-block h5,
+.ramkol-genq-form-block h5 {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 25px;
+	color: #111827;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #e5e7eb;
+}
+
+.ramkol-gen-enq-form-card label {
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 2px;
+	color: #374151;
+}
+
+.ramkol-gen-enq-form-card .form-control,
+.ramkol-gen-enq-form-card .form-select {
+	width: 95%;
+	border: 1px solid #d1d5db;
+	border-radius: 12px;
+	min-height: 54px;
+	padding: 12px 16px;
+	box-shadow: none;
+}
+
+.ramkol-gen-enq-form-card textarea.form-control {
+	min-height: 150px;
+}
+
+.ramkol-gen-enq-form-card .form-control:focus,
+.ramkol-gen-enq-form-card .form-select:focus {
+	border-color: #0f172a;
+	box-shadow: none;
+}
+
+.ramkol-gen-enq-form-check {
+	width: 95%;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 14px 16px;
+	border: 1px solid #e5e7eb;
+	border-radius: 12px;
+	background: #fafafa;
+	margin-bottom: 10px;
+}
+
+.ramkol-gen-enq-form-check label {
+	margin: 0;
+	cursor: pointer;
+}
+
+.ramkol-gen-enq-form-btn {
+	width: 100%;
+	border: none;
+	background: #0f172a;
+	color: #fff;
+	padding: 16px 25px;
+	border-radius: 14px;
+	font-size: 16px;
+	font-weight: 600;
+	transition: 0.3s ease;
+}
+
+.ramkol-gen-enq-form-btn:hover {
+	background: #1e293b;
 }
 
 /* Responsive */
 
-@media (max-width:991px){
+@media (max-width:991px) {
 
-    .ramkol-gen-enq-form-info{
-        padding:40px 30px;
-    }
+	.ramkol-gen-enq-form-info {
+		padding: 40px 30px;
+	}
 
-    .ramkol-gen-enq-form-card{
-        padding:35px 25px;
-    }
+	.ramkol-gen-enq-form-card {
+		padding: 35px 25px;
+	}
 
-    .ramkol-gen-enq-form-title{
-        font-size:34px;
-    }
+	.ramkol-gen-enq-form-title {
+		font-size: 34px;
+	}
 }
 
-@media (max-width:575px){
+@media (max-width:575px) {
 
-    .ramkol-gen-enq-form-title{
-        font-size:28px;
-    }
+	.ramkol-gen-enq-form-title {
+		font-size: 28px;
+	}
 
-    .ramkol-gen-enq-form-card{
-        padding:25px 20px;
-    }
+	.ramkol-gen-enq-form-card {
+		padding: 25px 20px;
+	}
 
-    .ramkol-gen-enq-form-head h3{
-        font-size:24px;
-    }
+	.ramkol-gen-enq-form-head h3 {
+		font-size: 24px;
+	}
 }
 
 
 
 .ramkol-brand-vendor-registration-form-section {
-    background: #f6f8fb;
+	background: #f6f8fb;
 	padding: 50px 0px;
 }
 
 .ramkol-brand-vendor-registration-form-wrapper {
-    position: relative;
+	position: relative;
 }
 
 .ramkol-brand-vendor-registration-form-content {
-    padding-right: 30px;
+	padding-right: 30px;
 }
 
 .ramkol-brand-vendor-registration-form-tag {
-    display: inline-block;
-    background: #C62828;
-    color: #ffffff;
-    padding: 10px 18px;
-    border-radius: 50px;
-    font-size: 13px;
-    font-weight: 600;
-    margin-bottom: 20px;
+	display: inline-block;
+	background: #C62828;
+	color: #ffffff;
+	padding: 10px 18px;
+	border-radius: 50px;
+	font-size: 13px;
+	font-weight: 600;
+	margin-bottom: 20px;
 }
 
 .ramkol-brand-vendor-registration-form-title {
-    font-size: 42px;
-    font-weight: 800;
-    color: #1d2736;
-    margin-bottom: 10px;
-    line-height: 1.2;
+	font-size: 42px;
+	font-weight: 800;
+	color: #1d2736;
+	margin-bottom: 10px;
+	line-height: 1.2;
 }
 
 .ramkol-brand-vendor-registration-form-subtitle {
-    font-size: 24px;
-    font-weight: 600;
-    color: #C62828;
-    margin-bottom: 20px;
+	font-size: 24px;
+	font-weight: 600;
+	color: #C62828;
+	margin-bottom: 20px;
 }
 
 .ramkol-brand-vendor-registration-form-content p {
-    color: #5c6470;
-    line-height: 1.8;
-    margin-bottom: 30px;
+	color: #5c6470;
+	line-height: 1.8;
+	margin-bottom: 30px;
 }
 
 .ramkol-brand-vendor-registration-form-highlights {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
 }
 
 .ramkol-brand-vendor-registration-form-highlight {
-    background: #ffffff;
-    border: 1px solid #dde5ef;
-    padding: 12px 18px;
-    border-radius: 10px;
-    font-size: 14px;
-    font-weight: 600;
+	background: #ffffff;
+	border: 1px solid #dde5ef;
+	padding: 12px 18px;
+	border-radius: 10px;
+	font-size: 14px;
+	font-weight: 600;
 }
 
 .ramkol-brand-vendor-registration-form-card {
-    background: #ffffff;
-    border-radius: 24px;
-    padding: 40px;
-    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+	background: #ffffff;
+	border-radius: 24px;
+	padding: 40px;
+	box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
 }
 
 .ramkol-brand-vendor-registration-form-block {
-    margin-bottom: 35px;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #eceff4;
+	margin-bottom: 35px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #eceff4;
 }
 
 .ramkol-brand-vendor-registration-form-block:last-child {
-    border-bottom: none;
-    padding-bottom: 0;
+	border-bottom: none;
+	padding-bottom: 0;
 }
 
 .ramkol-brand-vendor-registration-form-block-title {
-    font-size: 18px;
-    font-weight: 700;
-    color: #1d2736;
-    margin-bottom: 25px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #1d2736;
+	margin-bottom: 25px;
 }
 
 .ramkol-brand-vendor-registration-form-card label {
-    font-size: 14px;
-    font-weight: 600;
-    color: #222;
-    margin-bottom: 8px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #222;
+	margin-bottom: 8px;
 }
 
 .ramkol-brand-vendor-registration-form-card .form-control,
 .ramkol-brand-vendor-registration-form-card .form-select {
-    min-height: 54px;
-    border-radius: 12px;
-    border: 1px solid #d9e0ea;
-    box-shadow: none;
+	min-height: 54px;
+	border-radius: 12px;
+	border: 1px solid #d9e0ea;
+	box-shadow: none;
 }
 
 .ramkol-brand-vendor-registration-form-card textarea.form-control {
-    min-height: 130px;
+	min-height: 130px;
 }
 
 .ramkol-brand-vendor-registration-form-card .form-control:focus,
 .ramkol-brand-vendor-registration-form-card .form-select:focus {
-    border-color: #C62828;
-    box-shadow: 0 0 0 3px rgba(15, 76, 129, 0.15);
+	border-color: #C62828;
+	box-shadow: 0 0 0 3px rgba(15, 76, 129, 0.15);
 }
 
 .ramkol-brand-vendor-registration-form-checkbox-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 12px;
 }
 
 .ramkol-brand-vendor-registration-form-checkbox-grid label,
 .ramkol-brand-vendor-registration-form-radio-group label {
-    background: #f7f9fc;
-    border: 1px solid #dbe3ec;
-    border-radius: 10px;
-    padding: 12px 15px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 0;
-    cursor: pointer;
+	background: #f7f9fc;
+	border: 1px solid #dbe3ec;
+	border-radius: 10px;
+	padding: 12px 15px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 0;
+	cursor: pointer;
 }
 
 .ramkol-brand-vendor-registration-form-radio-group {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
+	display: flex;
+	gap: 15px;
+	flex-wrap: wrap;
 }
 
 .ramkol-brand-vendor-registration-form-btn {
-    background: #C62828;
-    color: #ffffff;
-    border: none;
-    border-radius: 50px;
-    padding: 15px 35px;
-    font-size: 16px;
-    font-weight: 700;
-    transition: all 0.3s ease;
+	background: #C62828;
+	color: #ffffff;
+	border: none;
+	border-radius: 50px;
+	padding: 15px 35px;
+	font-size: 16px;
+	font-weight: 700;
+	transition: all 0.3s ease;
 }
 
 .ramkol-brand-vendor-registration-form-btn:hover {
-    background: #991c1c;
-    transform: translateY(-2px);
+	background: #991c1c;
+	transform: translateY(-2px);
 }
 
 @media (max-width: 991px) {
 
-    .ramkol-brand-vendor-registration-form-content {
-        padding-right: 0;
-        margin-bottom: 40px;
-    }
+	.ramkol-brand-vendor-registration-form-content {
+		padding-right: 0;
+		margin-bottom: 40px;
+	}
 
-    .ramkol-brand-vendor-registration-form-title {
-        font-size: 34px;
-    }
+	.ramkol-brand-vendor-registration-form-title {
+		font-size: 34px;
+	}
 
-    .ramkol-brand-vendor-registration-form-card {
-        padding: 30px;
-    }
+	.ramkol-brand-vendor-registration-form-card {
+		padding: 30px;
+	}
 }
 
 @media (max-width: 767px) {
 
-    .ramkol-brand-vendor-registration-form-title {
-        font-size: 28px;
-    }
+	.ramkol-brand-vendor-registration-form-title {
+		font-size: 28px;
+	}
 
-    .ramkol-brand-vendor-registration-form-subtitle {
-        font-size: 20px;
-    }
+	.ramkol-brand-vendor-registration-form-subtitle {
+		font-size: 20px;
+	}
 
-    .ramkol-brand-vendor-registration-form-checkbox-grid {
-        grid-template-columns: 1fr;
-    }
+	.ramkol-brand-vendor-registration-form-checkbox-grid {
+		grid-template-columns: 1fr;
+	}
 
-    .ramkol-brand-vendor-registration-form-card {
-        padding: 25px 20px;
-    }
+	.ramkol-brand-vendor-registration-form-card {
+		padding: 25px 20px;
+	}
 
-    .ramkol-brand-vendor-registration-form-btn {
-        width: 100%;
-    }
+	.ramkol-brand-vendor-registration-form-btn {
+		width: 100%;
+	}
 }
 
 
@@ -4623,65 +4628,61 @@ footer h4 {
    ========================================================= */
 
 .rankol-global-offices-support-desk-section {
-    position: relative;
-    overflow: hidden;
-    background:
-        radial-gradient(
-            circle at 8% 15%,
-            rgba(22, 111, 98, 0.08) 0,
-            rgba(22, 111, 98, 0) 30%
-        ),
-        radial-gradient(
-            circle at 95% 85%,
-            rgba(209, 154, 64, 0.08) 0,
-            rgba(209, 154, 64, 0) 28%
-        ),
-        #f6f8f7;
-    color: #182523;
+	position: relative;
+	overflow: hidden;
+	background:
+		radial-gradient(circle at 8% 15%,
+			rgba(22, 111, 98, 0.08) 0,
+			rgba(22, 111, 98, 0) 30%),
+		radial-gradient(circle at 95% 85%,
+			rgba(209, 154, 64, 0.08) 0,
+			rgba(209, 154, 64, 0) 28%),
+		#f6f8f7;
+	color: #182523;
 	padding: 50px 0px;
 }
 
 /* Section Header */
 
 .rankol-global-offices-support-desk-eyebrow {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 15px;
-    color: #191919;
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 2.2px;
-    text-transform: uppercase;
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 15px;
+	color: #191919;
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: 2.2px;
+	text-transform: uppercase;
 }
 
 .rankol-global-offices-support-desk-eyebrow::before,
 .rankol-global-offices-support-desk-eyebrow::after {
-    content: "";
-    width: 24px;
-    height: 1px;
-    background: #C62828;
+	content: "";
+	width: 24px;
+	height: 1px;
+	background: #C62828;
 }
 
 .rankol-global-offices-support-desk-title {
-    margin: 0;
-    color: #191919;
-    font-size: clamp(34px, 4vw, 52px);
-    font-weight: 700;
-    line-height: 1.08;
-    letter-spacing: -1.5px;
+	margin: 0;
+	color: #191919;
+	font-size: clamp(34px, 4vw, 52px);
+	font-weight: 700;
+	line-height: 1.08;
+	letter-spacing: -1.5px;
 }
 
 .rankol-global-offices-support-desk-title span {
-    color: #C62828;
+	color: #C62828;
 }
 
 .rankol-global-offices-support-desk-intro {
-    max-width: 700px;
-    margin: 20px auto 0;
-    color: #687572;
-    font-size: 16px;
-    line-height: 1.8;
+	max-width: 700px;
+	margin: 20px auto 0;
+	color: #687572;
+	font-size: 16px;
+	line-height: 1.8;
 }
 
 
@@ -4690,211 +4691,211 @@ footer h4 {
    ========================================================= */
 
 .rankol-global-offices-support-desk-info {
-    height: 100%;
-    padding: 38px;
-    overflow: hidden;
-    border: 1px solid rgba(22, 115, 100, 0.15);
-    border-radius: 26px;
-    background: linear-gradient(145deg, #000000 0%, #131313 52%, #3a0b0b 100%);
-    box-shadow: 0 22px 55px rgba(19, 62, 56, 0.16);
+	height: 100%;
+	padding: 38px;
+	overflow: hidden;
+	border: 1px solid rgba(22, 115, 100, 0.15);
+	border-radius: 26px;
+	background: linear-gradient(145deg, #000000 0%, #131313 52%, #3a0b0b 100%);
+	box-shadow: 0 22px 55px rgba(19, 62, 56, 0.16);
 }
 
 .rankol-global-offices-support-desk-info-top {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    margin-bottom: 32px;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	margin-bottom: 32px;
 }
 
 .rankol-global-offices-support-desk-icon {
-    display: flex;
-    width: 52px;
-    height: 52px;
-    flex: 0 0 52px;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(255, 255, 255, 0.16);
-    border-radius: 15px;
-    background: rgba(255, 255, 255, 0.10);
+	display: flex;
+	width: 52px;
+	height: 52px;
+	flex: 0 0 52px;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgba(255, 255, 255, 0.16);
+	border-radius: 15px;
+	background: rgba(255, 255, 255, 0.10);
 }
 
 .rankol-global-offices-support-desk-icon svg {
-    width: 24px;
-    height: 24px;
-    fill: none;
-    stroke: #C62828;
-    stroke-width: 1.7;
-    stroke-linecap: round;
-    stroke-linejoin: round;
+	width: 24px;
+	height: 24px;
+	fill: none;
+	stroke: #C62828;
+	stroke-width: 1.7;
+	stroke-linecap: round;
+	stroke-linejoin: round;
 }
 
 .rankol-global-offices-support-desk-label {
-    display: block;
-    margin: 0 0 7px;
-    color: #C62828;
-    font-size: 10px;
-    font-weight: 800;
-    letter-spacing: 1.8px;
-    text-transform: uppercase;
+	display: block;
+	margin: 0 0 7px;
+	color: #C62828;
+	font-size: 10px;
+	font-weight: 800;
+	letter-spacing: 1.8px;
+	text-transform: uppercase;
 }
 
 .rankol-global-offices-support-desk-info-top h3 {
-    margin: 0;
-    color: #ffffff;
-    font-size: 24px;
-    font-weight: 600;
+	margin: 0;
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 600;
 }
 
 
 /* Office Cards */
 
 .rankol-global-offices-support-desk-office-card {
-    display: flex;
-    gap: 18px;
-    padding: 25px 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.13);
+	display: flex;
+	gap: 18px;
+	padding: 25px 0;
+	border-top: 1px solid rgba(255, 255, 255, 0.13);
 }
 
 .rankol-global-offices-support-desk-office-number {
-    width: 32px;
-    flex: 0 0 32px;
-    padding-top: 3px;
-    color: rgba(255, 255, 255, 0.36);
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 1px;
+	width: 32px;
+	flex: 0 0 32px;
+	padding-top: 3px;
+	color: rgba(255, 255, 255, 0.36);
+	font-size: 12px;
+	font-weight: 800;
+	letter-spacing: 1px;
 }
 
 .rankol-global-offices-support-desk-office-content {
-    min-width: 0;
+	min-width: 0;
 }
 
 .rankol-global-offices-support-desk-office-tag {
-    display: inline-flex;
-    padding: 5px 9px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    background: rgba(224, 174, 93, 0.12);
-    color: #C62828;
-    font-size: 9px;
-    font-weight: 800;
-    letter-spacing: 1.3px;
-    text-transform: uppercase;
+	display: inline-flex;
+	padding: 5px 9px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background: rgba(224, 174, 93, 0.12);
+	color: #C62828;
+	font-size: 9px;
+	font-weight: 800;
+	letter-spacing: 1.3px;
+	text-transform: uppercase;
 }
 
 .rankol-global-offices-support-desk-office-content h4 {
-    margin: 0 0 16px;
-    color: #ffffff;
-    font-size: 17px;
-    font-weight: 600;
-    line-height: 1.45;
+	margin: 0 0 16px;
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 1.45;
 }
 
 .rankol-global-offices-support-desk-detail {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    color: rgba(255, 255, 255, 0.68);
-    font-size: 13px;
-    line-height: 1.7;
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	color: rgba(255, 255, 255, 0.68);
+	font-size: 13px;
+	line-height: 1.7;
 }
 
 .rankol-global-offices-support-desk-detail-icon {
-    display: inline-flex;
-    flex: 0 0 18px;
-    margin-top: 2px;
+	display: inline-flex;
+	flex: 0 0 18px;
+	margin-top: 2px;
 }
 
 .rankol-global-offices-support-desk-detail-icon svg {
-    width: 17px;
-    height: 17px;
-    fill: none;
-    stroke: #C62828;
-    stroke-width: 1.5;
-    stroke-linecap: round;
-    stroke-linejoin: round;
+	width: 17px;
+	height: 17px;
+	fill: none;
+	stroke: #C62828;
+	stroke-width: 1.5;
+	stroke-linecap: round;
+	stroke-linejoin: round;
 }
 
 
 /* Contact Links */
 
 .rankol-global-offices-support-desk-contact-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 17px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-top: 17px;
 }
 
 .rankol-global-offices-support-desk-contact-links a {
-    display: inline-flex;
-    align-items: center;
-    gap: 7px;
-    padding: 8px 11px;
-    border: 1px solid rgba(255, 255, 255, 0.10);
-    border-radius: 7px;
-    background: rgba(255, 255, 255, 0.06);
-    color: rgba(255, 255, 255, 0.82);
-    font-size: 11px;
-    text-decoration: none;
-    transition:
-        background 0.25s ease,
-        border-color 0.25s ease,
-        color 0.25s ease;
+	display: inline-flex;
+	align-items: center;
+	gap: 7px;
+	padding: 8px 11px;
+	border: 1px solid rgba(255, 255, 255, 0.10);
+	border-radius: 7px;
+	background: rgba(255, 255, 255, 0.06);
+	color: rgba(255, 255, 255, 0.82);
+	font-size: 11px;
+	text-decoration: none;
+	transition:
+		background 0.25s ease,
+		border-color 0.25s ease,
+		color 0.25s ease;
 }
 
 .rankol-global-offices-support-desk-contact-links a:hover {
-    border-color: rgba(224, 174, 93, 0.45);
-    background: rgba(224, 174, 93, 0.12);
-    color: #ffffff;
+	border-color: rgba(224, 174, 93, 0.45);
+	background: rgba(224, 174, 93, 0.12);
+	color: #ffffff;
 }
 
 .rankol-global-offices-support-desk-contact-links svg {
-    width: 14px;
-    height: 14px;
-    fill: none;
-    stroke: #C62828;
-    stroke-width: 1.6;
-    stroke-linecap: round;
-    stroke-linejoin: round;
+	width: 14px;
+	height: 14px;
+	fill: none;
+	stroke: #C62828;
+	stroke-width: 1.6;
+	stroke-linecap: round;
+	stroke-linejoin: round;
 }
 
 
 /* Support Note */
 
 .rankol-global-offices-support-desk-support-note {
-    display: flex;
-    align-items: flex-start;
-    gap: 13px;
-    margin-top: 18px;
-    padding: 17px;
-    border: 1px solid rgba(255, 255, 255, 0.10);
-    border-radius: 13px;
-    background: rgba(0, 0, 0, 0.10);
+	display: flex;
+	align-items: flex-start;
+	gap: 13px;
+	margin-top: 18px;
+	padding: 17px;
+	border: 1px solid rgba(255, 255, 255, 0.10);
+	border-radius: 13px;
+	background: rgba(0, 0, 0, 0.10);
 }
 
 .rankol-global-offices-support-desk-support-dot {
-    position: relative;
-    width: 9px;
-    height: 9px;
-    flex: 0 0 9px;
-    margin-top: 5px;
-    border-radius: 50%;
-    background: #C62828;
-    box-shadow: 0 0 0 5px rgba(225, 174, 92, 0.12);
+	position: relative;
+	width: 9px;
+	height: 9px;
+	flex: 0 0 9px;
+	margin-top: 5px;
+	border-radius: 50%;
+	background: #C62828;
+	box-shadow: 0 0 0 5px rgba(225, 174, 92, 0.12);
 }
 
 .rankol-global-offices-support-desk-support-note strong {
-    display: block;
-    margin-bottom: 4px;
-    color: #ffffff;
-    font-size: 12px;
+	display: block;
+	margin-bottom: 4px;
+	color: #ffffff;
+	font-size: 12px;
 }
 
 .rankol-global-offices-support-desk-support-note p {
-    margin: 0;
-    color: rgba(255, 255, 255, 0.55);
-    font-size: 11px;
-    line-height: 1.6;
+	margin: 0;
+	color: rgba(255, 255, 255, 0.55);
+	font-size: 11px;
+	line-height: 1.6;
 }
 
 
@@ -4903,142 +4904,142 @@ footer h4 {
    ========================================================= */
 
 .rankol-global-offices-support-desk-form-card {
-    height: 100%;
-    padding: clamp(25px, 4vw, 44px);
-    border: 1px solid #e2e8e5;
-    border-radius: 26px;
-    background: #ffffff;
-    box-shadow: 0 18px 50px rgba(23, 37, 34, 0.07);
+	height: 100%;
+	padding: clamp(25px, 4vw, 44px);
+	border: 1px solid #e2e8e5;
+	border-radius: 26px;
+	background: #ffffff;
+	box-shadow: 0 18px 50px rgba(23, 37, 34, 0.07);
 }
 
 .rankol-global-offices-support-desk-form-heading {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    padding-bottom: 26px;
-    margin-bottom: 4px;
-    border-bottom: 1px solid #edf0ee;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+	padding-bottom: 26px;
+	margin-bottom: 4px;
+	border-bottom: 1px solid #edf0ee;
 }
 
 .rankol-global-offices-support-desk-form-heading h3 {
-    margin: 0;
-    color: #172522;
-    font-size: 28px;
-    font-weight: 650;
-    letter-spacing: -0.6px;
+	margin: 0;
+	color: #172522;
+	font-size: 28px;
+	font-weight: 650;
+	letter-spacing: -0.6px;
 }
 
 .rankol-global-offices-support-desk-form-badge {
-    display: flex;
-    width: 48px;
-    height: 48px;
-    flex: 0 0 48px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 14px;
-    background: #edf6f3;
+	display: flex;
+	width: 48px;
+	height: 48px;
+	flex: 0 0 48px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 14px;
+	background: #edf6f3;
 }
 
 .rankol-global-offices-support-desk-form-badge svg {
-    width: 23px;
-    height: 23px;
-    fill: none;
-    stroke: #C62828;
-    stroke-width: 1.6;
-    stroke-linecap: round;
-    stroke-linejoin: round;
+	width: 23px;
+	height: 23px;
+	fill: none;
+	stroke: #C62828;
+	stroke-width: 1.6;
+	stroke-linecap: round;
+	stroke-linejoin: round;
 }
 
 
 /* Form Fields */
 
 .rankol-global-offices-support-desk-field label {
-    display: block;
-    margin-bottom: 9px;
-    color: #263633;
-    font-size: 12px;
-    font-weight: 700;
+	display: block;
+	margin-bottom: 9px;
+	color: #263633;
+	font-size: 12px;
+	font-weight: 700;
 }
 
 .rankol-global-offices-support-desk-field input,
 .rankol-global-offices-support-desk-field textarea,
 .rankol-global-offices-support-desk-field select {
-    width: 100%;
-    border: 1px solid #dce4e1;
-    border-radius: 10px;
-    outline: none;
-    background: #fafcfb;
-    color: #263633;
-    font-family: inherit;
-    font-size: 13px;
-    transition:
-        border-color 0.25s ease,
-        background 0.25s ease,
-        box-shadow 0.25s ease;
+	width: 100%;
+	border: 1px solid #dce4e1;
+	border-radius: 10px;
+	outline: none;
+	background: #fafcfb;
+	color: #263633;
+	font-family: inherit;
+	font-size: 13px;
+	transition:
+		border-color 0.25s ease,
+		background 0.25s ease,
+		box-shadow 0.25s ease;
 }
 
 .rankol-global-offices-support-desk-field input,
 .rankol-global-offices-support-desk-field select {
-    height: 50px;
-    padding: 0 15px;
+	height: 50px;
+	padding: 0 15px;
 }
 
 .rankol-global-offices-support-desk-field textarea {
-    min-height: 125px;
-    padding: 14px 15px;
-    resize: vertical;
-    line-height: 1.6;
+	min-height: 125px;
+	padding: 14px 15px;
+	resize: vertical;
+	line-height: 1.6;
 }
 
 .rankol-global-offices-support-desk-field input::placeholder,
 .rankol-global-offices-support-desk-field textarea::placeholder {
-    color: #a0aaa7;
+	color: #a0aaa7;
 }
 
 .rankol-global-offices-support-desk-field input:focus,
 .rankol-global-offices-support-desk-field textarea:focus,
 .rankol-global-offices-support-desk-field select:focus {
-    border-color: #389181;
-    background: #ffffff;
-    box-shadow: 0 0 0 4px rgba(22, 115, 100, 0.08);
+	border-color: #389181;
+	background: #ffffff;
+	box-shadow: 0 0 0 4px rgba(22, 115, 100, 0.08);
 }
 
 
 /* Custom Select */
 
 .rankol-global-offices-support-desk-select-wrap {
-    position: relative;
+	position: relative;
 }
 
 .rankol-global-offices-support-desk-select-wrap select {
-    appearance: none;
-    -webkit-appearance: none;
-    padding-right: 45px;
-    cursor: pointer;
+	appearance: none;
+	-webkit-appearance: none;
+	padding-right: 45px;
+	cursor: pointer;
 }
 
 .rankol-global-offices-support-desk-select-arrow {
-    position: absolute;
-    top: 50%;
-    right: 15px;
-    display: flex;
-    width: 20px;
-    height: 20px;
-    align-items: center;
-    justify-content: center;
-    pointer-events: none;
-    transform: translateY(-50%);
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	display: flex;
+	width: 20px;
+	height: 20px;
+	align-items: center;
+	justify-content: center;
+	pointer-events: none;
+	transform: translateY(-50%);
 }
 
 .rankol-global-offices-support-desk-select-arrow svg {
-    width: 16px;
-    height: 16px;
-    fill: none;
-    stroke: #61706c;
-    stroke-width: 1.7;
-    stroke-linecap: round;
-    stroke-linejoin: round;
+	width: 16px;
+	height: 16px;
+	fill: none;
+	stroke: #61706c;
+	stroke-width: 1.7;
+	stroke-linecap: round;
+	stroke-linejoin: round;
 }
 
 
@@ -5047,67 +5048,67 @@ footer h4 {
    ========================================================= */
 
 .rankol-global-offices-support-desk-submit-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 25px;
-    padding-top: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 25px;
+	padding-top: 5px;
 }
 
 .rankol-global-offices-support-desk-privacy {
-    max-width: 280px;
-    margin: 0;
-    color: #8a9591;
-    font-size: 11px;
-    line-height: 1.6;
+	max-width: 280px;
+	margin: 0;
+	color: #8a9591;
+	font-size: 11px;
+	line-height: 1.6;
 }
 
 .rankol-global-offices-support-desk-submit {
-    display: inline-flex;
-    min-height: 52px;
-    align-items: center;
-    gap: 16px;
-    padding: 6px 7px 6px 20px;
-    border: 0;
-    border-radius: 10px;
-    background: #C62828;
-    color: #ffffff;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: 12px;
-    font-weight: 700;
-    white-space: nowrap;
-    box-shadow: 0 9px 20px rgba(22, 115, 100, 0.18);
-    transition:
-        background 0.25s ease,
-        transform 0.25s ease,
-        box-shadow 0.25s ease;
+	display: inline-flex;
+	min-height: 52px;
+	align-items: center;
+	gap: 16px;
+	padding: 6px 7px 6px 20px;
+	border: 0;
+	border-radius: 10px;
+	background: #C62828;
+	color: #ffffff;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 12px;
+	font-weight: 700;
+	white-space: nowrap;
+	box-shadow: 0 9px 20px rgba(22, 115, 100, 0.18);
+	transition:
+		background 0.25s ease,
+		transform 0.25s ease,
+		box-shadow 0.25s ease;
 }
 
 .rankol-global-offices-support-desk-submit:hover {
-   background: #292929;
-    box-shadow: 0 12px 25px rgba(22, 115, 100, 0.25);
-    transform: translateY(-2px);
+	background: #292929;
+	box-shadow: 0 12px 25px rgba(22, 115, 100, 0.25);
+	transform: translateY(-2px);
 }
 
 .rankol-global-offices-support-desk-submit-icon {
-    display: flex;
-    width: 39px;
-    height: 39px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 7px;
-    background: #fefefe;
+	display: flex;
+	width: 39px;
+	height: 39px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 7px;
+	background: #fefefe;
 }
 
 .rankol-global-offices-support-desk-submit-icon svg {
-    width: 17px;
-    height: 17px;
-    fill: none;
-    stroke: #173e38;
-    stroke-width: 1.8;
-    stroke-linecap: round;
-    stroke-linejoin: round;
+	width: 17px;
+	height: 17px;
+	fill: none;
+	stroke: #173e38;
+	stroke-width: 1.8;
+	stroke-linecap: round;
+	stroke-linejoin: round;
 }
 
 
@@ -5117,100 +5118,117 @@ footer h4 {
 
 @media (max-width: 991.98px) {
 
-    .rankol-global-offices-support-desk-info {
-        padding: 30px;
-    }
+	.rankol-global-offices-support-desk-info {
+		padding: 30px;
+	}
 
-    .rankol-global-offices-support-desk-form-card {
-        padding: 30px;
-    }
+	.rankol-global-offices-support-desk-form-card {
+		padding: 30px;
+	}
 }
 
 @media (max-width: 767.98px) {
 
-    .rankol-global-offices-support-desk-title {
-        font-size: 35px;
-    }
+	.rankol-global-offices-support-desk-title {
+		font-size: 35px;
+	}
 
-    .rankol-global-offices-support-desk-intro {
-        font-size: 14px;
-        line-height: 1.7;
-    }
+	.rankol-global-offices-support-desk-intro {
+		font-size: 14px;
+		line-height: 1.7;
+	}
 
-    .rankol-global-offices-support-desk-info,
-    .rankol-global-offices-support-desk-form-card {
-        border-radius: 20px;
-    }
+	.rankol-global-offices-support-desk-info,
+	.rankol-global-offices-support-desk-form-card {
+		border-radius: 20px;
+	}
 
-    .rankol-global-offices-support-desk-info {
-        padding: 25px;
-    }
+	.rankol-global-offices-support-desk-info {
+		padding: 25px;
+	}
 
-    .rankol-global-offices-support-desk-form-card {
-        padding: 24px;
-    }
+	.rankol-global-offices-support-desk-form-card {
+		padding: 24px;
+	}
 
-    .rankol-global-offices-support-desk-submit-row {
-        align-items: stretch;
-        flex-direction: column;
-    }
+	.rankol-global-offices-support-desk-submit-row {
+		align-items: stretch;
+		flex-direction: column;
+	}
 
-    .rankol-global-offices-support-desk-privacy {
-        max-width: none;
-    }
+	.rankol-global-offices-support-desk-privacy {
+		max-width: none;
+	}
 
-    .rankol-global-offices-support-desk-submit {
-        justify-content: space-between;
-    }
+	.rankol-global-offices-support-desk-submit {
+		justify-content: space-between;
+	}
 }
 
 @media (max-width: 575.98px) {
 
-    .rankol-global-offices-support-desk-section {
-        padding-top: 45px !important;
-        padding-bottom: 45px !important;
-    }
+	.rankol-global-offices-support-desk-section {
+		padding-top: 45px !important;
+		padding-bottom: 45px !important;
+	}
 
-    .rankol-global-offices-support-desk-title {
-        font-size: 31px;
-        letter-spacing: -0.8px;
-    }
+	.rankol-global-offices-support-desk-title {
+		font-size: 31px;
+		letter-spacing: -0.8px;
+	}
 
-    .rankol-global-offices-support-desk-info {
-        padding: 22px;
-    }
+	.rankol-global-offices-support-desk-info {
+		padding: 22px;
+	}
 
-    .rankol-global-offices-support-desk-form-card {
-        padding: 20px;
-    }
+	.rankol-global-offices-support-desk-form-card {
+		padding: 20px;
+	}
 
-    .rankol-global-offices-support-desk-form-heading h3 {
-        font-size: 23px;
-    }
+	.rankol-global-offices-support-desk-form-heading h3 {
+		font-size: 23px;
+	}
 
-    .rankol-global-offices-support-desk-office-card {
-        gap: 12px;
-    }
+	.rankol-global-offices-support-desk-office-card {
+		gap: 12px;
+	}
 
-    .rankol-global-offices-support-desk-office-number {
-        width: 25px;
-        flex-basis: 25px;
-    }
+	.rankol-global-offices-support-desk-office-number {
+		width: 25px;
+		flex-basis: 25px;
+	}
 
-    .rankol-global-offices-support-desk-office-content h4 {
-        font-size: 15px;
-    }
+	.rankol-global-offices-support-desk-office-content h4 {
+		font-size: 15px;
+	}
 
-    .rankol-global-offices-support-desk-detail {
-        font-size: 12px;
-    }
+	.rankol-global-offices-support-desk-detail {
+		font-size: 12px;
+	}
 
-    .rankol-global-offices-support-desk-contact-links {
-        flex-direction: column;
-        align-items: stretch;
-    }
+	.rankol-global-offices-support-desk-contact-links {
+		flex-direction: column;
+		align-items: stretch;
+	}
 
-    .rankol-global-offices-support-desk-contact-links a {
-        width: 100%;
-    }
+	.rankol-global-offices-support-desk-contact-links a {
+		width: 100%;
+	}
+}
+
+
+.contacticon a svg {
+	position: relative;
+	top: 13px;
+	right: -2px;
+	box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+	padding: 5px 5px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+}
+
+.soc-medi-icon-ftr a:nth-child(2) {
+	margin-right: 4px;
 }

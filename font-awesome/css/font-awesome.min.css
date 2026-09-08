@@ -804,6 +804,10 @@
     content: "\f099"
 }
 
+.fa-x-twitter:before {
+    content: "\e61f";
+}
+
 .fa-facebook-f:before,
 .fa-facebook:before {
     content: "\f09a"
